@@ -1,0 +1,224 @@
+1
+00:00:00,420 --> 00:00:06,660
+So as I mentioned, we need a way to track if the item that our user has consumed as a food item or
+
+2
+00:00:06,870 --> 00:00:07,620
+as a beverage.
+
+3
+00:00:08,430 --> 00:00:09,450
+And there are two more things.
+
+4
+00:00:09,450 --> 00:00:15,000
+When you look at nutritional calculators, there are two more things that the dietitians ask you.
+
+5
+00:00:15,000 --> 00:00:17,100
+If it was water, white, rose cheese.
+
+6
+00:00:17,700 --> 00:00:22,140
+So the way you calculate for cheese is very different from that of beverage and regular food items.
+
+7
+00:00:22,470 --> 00:00:25,410
+And water is definitely, you know, completely something else.
+
+8
+00:00:25,440 --> 00:00:27,060
+So it'll have its own values.
+
+9
+00:00:27,840 --> 00:00:32,850
+So this these classifications of these four things keep in something called a score type.
+
+10
+00:00:33,060 --> 00:00:37,950
+So just remember that we have something called a score type, which will basically have whether it's
+
+11
+00:00:37,950 --> 00:00:40,530
+the food item is food, beverage, water or cheese.
+
+12
+00:00:41,070 --> 00:00:48,540
+Because when you want to track on a track for food items and separately for beverage items and similarly,
+
+13
+00:00:48,540 --> 00:00:51,180
+water may not have many of these things.
+
+14
+00:00:51,270 --> 00:00:53,880
+So we'll have to think of a different way to handle the water.
+
+15
+00:00:55,290 --> 00:01:00,240
+And like I said, dietitians have a different way to also grade and handle cheese.
+
+16
+00:01:00,510 --> 00:01:04,379
+So we have to keep these two things separate other than food and beverage.
+
+17
+00:01:06,360 --> 00:01:12,630
+Now, the way we'll be grading this food, let's say the user has eaten something and we want to calculate
+
+18
+00:01:14,370 --> 00:01:20,460
+we'll be giving something called adds a nutritional score to that food item that the user has consumed.
+
+19
+00:01:21,270 --> 00:01:27,060
+Now, to give the nutritional score, we'll have a track, all of these things for that food item and
+
+20
+00:01:27,060 --> 00:01:33,610
+we'll have to give a value based on how much energy, how much sugar and how much sodium, etc., that
+
+21
+00:01:33,630 --> 00:01:34,380
+the food item has.
+
+22
+00:01:34,830 --> 00:01:38,970
+So it has two things positive and negative, and then obviously it has a score type.
+
+23
+00:01:39,180 --> 00:01:43,410
+So nutrition score will have a score type, which, as you mentioned, food, is it a food, beverage,
+
+24
+00:01:43,410 --> 00:01:43,920
+water or cheese?
+
+25
+00:01:44,430 --> 00:01:49,380
+But the final value that will be returning will be basically the value that it has scored will have
+
+26
+00:01:49,380 --> 00:01:49,770
+a value.
+
+27
+00:01:50,430 --> 00:01:51,450
+We'll have two more things.
+
+28
+00:01:51,450 --> 00:01:53,820
+It'll have something called positive or negative.
+
+29
+00:01:55,080 --> 00:02:01,620
+Now positive comes from having fiber and protein in the food, and negative would come from saturated
+
+30
+00:02:01,620 --> 00:02:04,320
+fatty acids, sugar levels and sodium levels.
+
+31
+00:02:05,330 --> 00:02:05,520
+Right.
+
+32
+00:02:05,520 --> 00:02:12,000
+So sugar and sodium, having more of these in the food product is not considered good by dieticians
+
+33
+00:02:12,000 --> 00:02:14,160
+and having fiber and protein is considered really good.
+
+34
+00:02:14,610 --> 00:02:19,860
+So you'll have a positive score, you'll have a negative score for that particular food product based
+
+35
+00:02:19,860 --> 00:02:22,980
+on what those food products have, based on this track that we create.
+
+36
+00:02:23,790 --> 00:02:29,580
+And the final calculation will be stored in this value, which will also depend on the score type.
+
+37
+00:02:29,580 --> 00:02:35,220
+So when you're tracking this score data, which is if it's food or water or beverage is going to be
+
+38
+00:02:35,220 --> 00:02:36,420
+really considered that as well.
+
+39
+00:02:36,780 --> 00:02:42,600
+So we considered all these different things to create basically the value of the nutrition score.
+
+40
+00:02:42,780 --> 00:02:44,100
+And this is the thing that we are returning.
+
+41
+00:02:46,110 --> 00:02:48,570
+So we just need to keep these things in mind.
+
+42
+00:02:48,570 --> 00:02:49,470
+What is the score type?
+
+43
+00:02:50,320 --> 00:02:54,960
+Well, what we mean by positive or negative, because once we start coding, everything will get clear
+
+44
+00:02:54,960 --> 00:02:55,260
+to you.
+
+45
+00:02:55,260 --> 00:02:59,760
+But also knowing all of that right now in a visual format, it's so much better.
+
+46
+00:02:59,760 --> 00:03:04,460
+So this is why I do a lot of visual planning before I start writing any code, because now even have
+
+47
+00:03:04,510 --> 00:03:04,820
+a letter.
+
+48
+00:03:04,830 --> 00:03:09,090
+Somebody is watching what I'm doing or something like I'm training somebody on how to do it.
+
+49
+00:03:09,570 --> 00:03:12,180
+They would be able to see or even if not training.
+
+50
+00:03:12,180 --> 00:03:16,500
+If I'm collaborating with another developer, they would be able to start planning with me.
+
+51
+00:03:16,620 --> 00:03:18,990
+So that really put plan the code in a much better way, right?
+
+52
+00:03:18,990 --> 00:03:23,250
+So this is why I do a lot of visual planning and this is why I want to show you that this is a nutrition
+
+53
+00:03:23,250 --> 00:03:23,610
+score.
+
+54
+00:03:23,640 --> 00:03:25,680
+This is what I mean by score type and this is what I mean.
+
+55
+00:03:25,860 --> 00:03:32,520
+I'm tracking something if you want to take screenshots like now these and when you're coding, you can
+
+56
+00:03:32,520 --> 00:03:37,950
+always refer to these screenshots to just ensure that you understand what you're doing at the moment.
+

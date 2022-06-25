@@ -1,0 +1,192 @@
+1
+00:00:00,690 --> 00:00:05,370
+So finally the time has come when we have to run our program.
+
+2
+00:00:05,939 --> 00:00:10,650
+So as you can see, I'm in my terminal, I'm inside the project directory.
+
+3
+00:00:11,430 --> 00:00:20,460
+And here, if you just see go run main school, it won't work because it'll say that your function get
+
+4
+00:00:20,460 --> 00:00:24,090
+initial school function is undefined and your structures are undefined as well.
+
+5
+00:00:24,990 --> 00:00:31,860
+The reason for that is that your may not go file belongs to a package main and it shouldn't go score
+
+6
+00:00:31,860 --> 00:00:33,330
+and go back files.
+
+7
+00:00:33,330 --> 00:00:36,720
+It belongs to package me, but there are two different files.
+
+8
+00:00:37,380 --> 00:00:38,820
+So if you're just joining me, not go.
+
+9
+00:00:38,850 --> 00:00:42,660
+Golang won't know that this exists here.
+
+10
+00:00:42,660 --> 00:00:43,140
+Out here.
+
+11
+00:00:43,830 --> 00:00:48,300
+So when you run a program like this, which has two different parts belong to the same package, you'll
+
+12
+00:00:48,300 --> 00:00:50,910
+say Go run and we'll just put it out here.
+
+13
+00:00:51,540 --> 00:00:54,900
+So it's basically going to go ahead and run all the files and that project.
+
+14
+00:00:55,740 --> 00:00:56,790
+So here it works properly.
+
+15
+00:00:56,790 --> 00:01:03,690
+It says you're just one square string and because it's three an inch, the square is C okay.
+
+16
+00:01:04,470 --> 00:01:08,970
+So in addition scoring logic and to score both are getting allocated property and you can obviously
+
+17
+00:01:08,970 --> 00:01:09,450
+make changes.
+
+18
+00:01:09,450 --> 00:01:17,580
+You can go ahead and say 500 here going to show the grounds.
+
+19
+00:01:20,220 --> 00:01:23,010
+And in Greece, all of these different things.
+
+20
+00:01:23,670 --> 00:01:24,690
+And reduce fraud.
+
+21
+00:01:25,890 --> 00:01:28,110
+Increase fiber and use fraud.
+
+22
+00:01:30,820 --> 00:01:32,110
+So now to go ahead and run it.
+
+23
+00:01:34,650 --> 00:01:42,420
+You get a score of nine and a score of nine also leads to a neutral score of C because your score depends
+
+24
+00:01:42,570 --> 00:01:43,230
+on the
+
+25
+00:01:46,440 --> 00:01:49,170
+you just score are basically these absolutely.
+
+26
+00:01:49,680 --> 00:01:52,720
+And depends on these steps out here.
+
+27
+00:01:53,520 --> 00:01:53,670
+Right.
+
+28
+00:01:53,770 --> 00:01:55,080
+So it's between 18 and ten.
+
+29
+00:01:55,680 --> 00:01:58,020
+What does between two and minus one is between ten and two.
+
+30
+00:01:58,590 --> 00:02:02,550
+So depending on that can give you a score like zero one, two, three.
+
+31
+00:02:04,050 --> 00:02:04,410
+Okay.
+
+32
+00:02:05,340 --> 00:02:11,700
+So now that the program is working perfectly fine, we can go ahead and disclose everything now because
+
+33
+00:02:11,880 --> 00:02:12,960
+it's working perfectly fine.
+
+34
+00:02:12,960 --> 00:02:16,260
+You can feel free to use these this tool somewhere else.
+
+35
+00:02:16,260 --> 00:02:18,150
+And I hope you learned a lot here.
+
+36
+00:02:19,110 --> 00:02:27,690
+I hope you learned a lot because we went through slices and types and starts most importantly and most
+
+37
+00:02:27,690 --> 00:02:29,790
+importantly, study methods.
+
+38
+00:02:29,790 --> 00:02:34,740
+We did a lot of calculations if and as we did for loops and range, right?
+
+39
+00:02:34,740 --> 00:02:40,260
+So the point of this project is not to create a very efficient or a better you just got here, it's
+
+40
+00:02:40,260 --> 00:02:46,800
+to show you how to use functions, how to use you know, how to bounce values to functions, how to
+
+41
+00:02:46,800 --> 00:02:52,530
+use floors, how to use slices, how to use range, you know, how to use if and else how to do these
+
+42
+00:02:52,530 --> 00:02:56,370
+calculations, how to define struct state, all of those things.
+
+43
+00:02:56,370 --> 00:02:59,160
+One of the main point of this function of this program.
+
+44
+00:02:59,160 --> 00:03:01,380
+So feel free to change anything that you want to change here.
+
+45
+00:03:02,400 --> 00:03:06,780
+The main thing is that you should understand what happened here and how we used all of the concepts
+
+46
+00:03:06,780 --> 00:03:09,330
+from Kalank to cement our knowledge.
+
+47
+00:03:10,680 --> 00:03:14,430
+So thank you for watching and the next project.
+
+48
+00:03:14,430 --> 00:03:15,960
+Now you will learn a lot more.
+

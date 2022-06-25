@@ -1,0 +1,224 @@
+1
+00:00:00,930 --> 00:00:04,670
+So in our nutrition scorecard file we're going to write.
+
+2
+00:00:05,240 --> 00:00:05,820
+We define.
+
+3
+00:00:07,700 --> 00:00:09,890
+Score type, which is.
+
+4
+00:00:14,160 --> 00:00:14,780
+Just ain't.
+
+5
+00:00:16,020 --> 00:00:16,370
+All right.
+
+6
+00:00:16,370 --> 00:00:22,280
+So we already know that Oscar types are going to be of food, beverage or cheese, these types.
+
+7
+00:00:22,280 --> 00:00:22,490
+Right.
+
+8
+00:00:23,300 --> 00:00:25,220
+So we'll get to that in a second.
+
+9
+00:00:26,720 --> 00:00:29,300
+But for now, what we'll do is we'll define some constants.
+
+10
+00:00:29,450 --> 00:00:32,000
+So one constant is food.
+
+11
+00:00:33,530 --> 00:00:35,510
+These questions are based on these food types.
+
+12
+00:00:35,540 --> 00:00:36,170
+Score types.
+
+13
+00:00:36,200 --> 00:00:36,530
+Okay.
+
+14
+00:00:37,100 --> 00:00:37,490
+Beverages.
+
+15
+00:00:37,490 --> 00:00:38,000
+What a cheese.
+
+16
+00:00:38,270 --> 00:00:41,330
+So it's a food beverage.
+
+17
+00:00:42,860 --> 00:00:46,040
+Water and cheese.
+
+18
+00:00:48,620 --> 00:00:49,040
+All right.
+
+19
+00:00:51,960 --> 00:00:54,030
+So for Ford witnesses for Type
+
+20
+00:00:56,970 --> 00:00:57,480
+II auto.
+
+21
+00:01:00,600 --> 00:01:10,830
+I screamed out to you in a minute, but along with that, what do you want to create as a struct called
+
+22
+00:01:11,550 --> 00:01:12,540
+nutritional score?
+
+23
+00:01:18,700 --> 00:01:23,920
+The nutritional score struct, as you already know, will have a value positive, negative in score
+
+24
+00:01:23,920 --> 00:01:25,570
+type and score divers.
+
+25
+00:01:25,570 --> 00:01:26,950
+What we have to find just not right.
+
+26
+00:01:26,950 --> 00:01:32,710
+So we have defined a score type and the constants here will tie in to the score type, which we'll talk
+
+27
+00:01:32,710 --> 00:01:33,340
+about in a minute.
+
+28
+00:01:34,210 --> 00:01:38,320
+And the nutritional score basically is a struct.
+
+29
+00:01:41,120 --> 00:01:47,750
+And the struct, as you already know, has a value as a positive and negative.
+
+30
+00:01:50,500 --> 00:01:52,720
+And score died.
+
+31
+00:01:54,050 --> 00:02:01,180
+Now the value positive and negative are basically integers.
+
+32
+00:02:05,700 --> 00:02:07,760
+And the score type is of type.
+
+33
+00:02:07,770 --> 00:02:08,430
+Score type.
+
+34
+00:02:08,850 --> 00:02:09,900
+This one out here.
+
+35
+00:02:14,810 --> 00:02:20,900
+So we've created our own diapers or defined your diapers and school type as of type.
+
+36
+00:02:21,560 --> 00:02:22,250
+That particular type.
+
+37
+00:02:24,530 --> 00:02:24,920
+All right.
+
+38
+00:02:27,020 --> 00:02:29,390
+So now we'll move forward.
+
+39
+00:02:30,530 --> 00:02:35,180
+So what do we have to do now is we have to actually check out these units.
+
+40
+00:02:35,840 --> 00:02:40,640
+So you know that to process the nutritional data that you get from the user and to the nutritional score,
+
+41
+00:02:41,720 --> 00:02:44,480
+you need the right units to do that.
+
+42
+00:02:44,480 --> 00:02:47,600
+You need the right variables to define the right returns.
+
+43
+00:02:50,600 --> 00:02:53,810
+And what we'll do now is we'll define these variables.
+
+44
+00:02:55,880 --> 00:02:59,780
+So we'll say type, energy type, sugar ground.
+
+45
+00:02:59,960 --> 00:03:01,400
+All of these types would be the final.
+
+46
+00:03:03,140 --> 00:03:17,210
+So we'll say output type, energy kilojoules, float 64 and type sugars from float 64.
+
+47
+00:03:21,110 --> 00:03:26,030
+Diet saturated fatty acids flawed 64.
+
+48
+00:03:28,040 --> 00:03:29,720
+And sodium mg.
+
+49
+00:03:32,570 --> 00:03:39,230
+Feel free to use this screen as a screenshot and we're basically just defining these variables for these
+
+50
+00:03:39,230 --> 00:03:39,600
+types.
+
+51
+00:03:39,620 --> 00:03:40,070
+That's it.
+
+52
+00:03:41,450 --> 00:03:47,570
+Source type sodium mg lot 64 and type.
+
+53
+00:03:49,970 --> 00:03:53,810
+Throats for Senate Floor two 664.
+
+54
+00:03:55,790 --> 00:04:00,440
+And day driver Graham Ground 64.
+
+55
+00:04:04,560 --> 00:04:09,420
+Type protein girl for 64.
+
+56
+00:04:11,460 --> 00:04:17,970
+So we're done defining our own types here, but we need to be able to process this information.
+

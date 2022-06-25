@@ -1,0 +1,196 @@
+1
+00:00:00,570 --> 00:00:07,470
+Now that we've defined all these types and also our struct functions core, it's time to define our
+
+2
+00:00:07,470 --> 00:00:08,940
+nutritional data struct.
+
+3
+00:00:10,320 --> 00:00:16,149
+So nutritional data, as you know, is the data that the user will input in terms of all this information.
+
+4
+00:00:17,640 --> 00:00:21,720
+But to have this represented in Golang, we have to use a struct.
+
+5
+00:00:22,080 --> 00:00:32,610
+So we say type nutritional data, which is structured and you will say energy.
+
+6
+00:00:35,130 --> 00:00:36,000
+Sugars.
+
+7
+00:00:37,830 --> 00:00:39,890
+And saturated fatty acids.
+
+8
+00:00:41,300 --> 00:00:42,080
+Sodium
+
+9
+00:00:45,290 --> 00:00:45,980
+juice.
+
+10
+00:00:49,820 --> 00:00:50,450
+Fiber
+
+11
+00:00:53,270 --> 00:00:53,900
+protein
+
+12
+00:00:56,660 --> 00:01:01,250
+and whether the product is water.
+
+13
+00:01:02,510 --> 00:01:08,330
+So when you go and check out an industry leader, by the way, feel free to use this as a screenshot.
+
+14
+00:01:09,770 --> 00:01:15,530
+When you're writing out that code for that struct, you'll see that we are using these values energy
+
+15
+00:01:15,530 --> 00:01:20,240
+sugars, saturated fatty acids, sodium foods, fiber protein and as water.
+
+16
+00:01:20,240 --> 00:01:23,420
+If that entities of water is water, I don't
+
+17
+00:01:26,510 --> 00:01:31,910
+know and start to define our variables in a struct or values in a stroke.
+
+18
+00:01:33,350 --> 00:01:36,230
+You also have to define a type for all of these values.
+
+19
+00:01:36,230 --> 00:01:40,070
+They could be int string or could be another type that you have defined.
+
+20
+00:01:40,520 --> 00:01:45,290
+So if you've just defined these types here and that's exactly what we're going to use out here, so
+
+21
+00:01:46,250 --> 00:01:54,040
+for energy, we're going to copy our energy gauge and we're going to produce it here for sugars.
+
+22
+00:01:54,050 --> 00:01:55,460
+We're going to copy our sugar gram.
+
+23
+00:01:59,400 --> 00:02:00,090
+Basing it here.
+
+24
+00:02:00,330 --> 00:02:11,550
+Saturated fatty acids will copy and paste it here for sodium will copy and paste sodium mg.
+
+25
+00:02:14,630 --> 00:02:17,930
+For fruits, we will copy and paste our fruits percent.
+
+26
+00:02:21,140 --> 00:02:23,450
+For fiber will copy and paste fibre ground.
+
+27
+00:02:27,240 --> 00:02:29,700
+For a protein, we'll check protein grown.
+
+28
+00:02:34,620 --> 00:02:36,270
+And as water.
+
+29
+00:02:38,620 --> 00:02:39,370
+As a Boolean.
+
+30
+00:02:41,670 --> 00:02:41,970
+Right.
+
+31
+00:02:43,050 --> 00:02:47,720
+So we defined our own types and we use all of our types to create nutrition data and additional data,
+
+32
+00:02:47,730 --> 00:02:54,360
+as you already know, as the information that the user will give us about what he's just eaten.
+
+33
+00:02:54,360 --> 00:02:56,490
+He's just logging that in.
+
+34
+00:02:57,630 --> 00:03:00,210
+So now we have our nutritional score struct.
+
+35
+00:03:00,210 --> 00:03:04,830
+This is the end result that we want from this entire program where value is the most important thing
+
+36
+00:03:04,830 --> 00:03:05,280
+and values.
+
+37
+00:03:05,280 --> 00:03:11,880
+What we're printing out here and the mean or go find and unusual result and additional data is basically
+
+38
+00:03:11,880 --> 00:03:13,920
+what the user's going to send.
+
+39
+00:03:14,880 --> 00:03:23,040
+So this nutritional data that the user is sending basically from, I mean not confined to this function
+
+40
+00:03:23,040 --> 00:03:27,750
+called good nutrient score function is essentially this nutritional data.
+
+41
+00:03:27,960 --> 00:03:29,640
+I hope this all makes sense now.
+
+42
+00:03:29,940 --> 00:03:31,260
+Everything ties in together.
+
+43
+00:03:32,130 --> 00:03:35,190
+Additionally, that's technically justified, has an additional goals.
+
+44
+00:03:35,190 --> 00:03:41,640
+All of these things and the nutrition data that you're sending in from your main file into a function
+
+45
+00:03:41,640 --> 00:03:48,960
+called Get Score has all of the same things energy, sugars, sodium, foods, fiber, etc., right?
+
+46
+00:03:48,960 --> 00:03:50,400
+So I hope all that now makes sense.
+
+47
+00:03:51,330 --> 00:03:57,660
+And now we'll proceed and we'll work on our get an additional score function, which is the most important
+
+48
+00:03:57,660 --> 00:04:04,500
+function, but we'll just define it and the inner workings will come back to that after a while after
+
+49
+00:04:04,500 --> 00:04:06,120
+we've created some more functions.
+

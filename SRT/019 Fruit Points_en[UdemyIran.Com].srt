@@ -1,0 +1,324 @@
+1
+00:00:01,320 --> 00:00:09,750
+So now we have to work on the fruits get points method before that as one out of a simple small thing
+
+2
+00:00:09,750 --> 00:00:19,530
+here and the monk func main and the main file will say FMD dot grain death and apart from additional
+
+3
+00:00:19,530 --> 00:00:26,160
+scores, we will have one more thing called nutri score.
+
+4
+00:00:32,310 --> 00:00:33,250
+And I'll explain to you.
+
+5
+00:00:33,270 --> 00:00:35,160
+But just for the time being.
+
+6
+00:00:39,990 --> 00:00:43,440
+Create dysfunction and called dysfunction, getting it destroyed.
+
+7
+00:00:44,460 --> 00:00:45,900
+And dysfunction
+
+8
+00:00:49,020 --> 00:00:52,140
+doesn't exist in our nutritional score package.
+
+9
+00:00:55,260 --> 00:00:56,760
+And that's what we want to fix.
+
+10
+00:00:56,770 --> 00:00:59,160
+We want to create this function called new disclosure.
+
+11
+00:01:00,720 --> 00:01:08,390
+Now, this function that will be theirs won't be simply a function, it'll be a method.
+
+12
+00:01:08,400 --> 00:01:12,480
+So we'll say funk and as nutritional score.
+
+13
+00:01:14,340 --> 00:01:14,710
+Right.
+
+14
+00:01:15,030 --> 00:01:16,590
+And get your true score.
+
+15
+00:01:22,220 --> 00:01:28,450
+Now getting you to school function is going great on a string and it's a method of type nutrition score.
+
+16
+00:01:28,490 --> 00:01:30,470
+So going back to your nutritional score.
+
+17
+00:01:32,730 --> 00:01:34,710
+Because the score is a struct, right?
+
+18
+00:01:35,310 --> 00:01:40,350
+And this method is of the type interested in scoring.
+
+19
+00:01:41,220 --> 00:01:45,450
+And this is why when you call this function from here, you can see and start getting the score.
+
+20
+00:01:45,840 --> 00:01:46,110
+Okay.
+
+21
+00:01:46,830 --> 00:01:54,870
+But in this was what you received after calling and getting a nutrition score function that s you can
+
+22
+00:01:54,870 --> 00:01:59,400
+use, which is a struct you can use to call the get near to score function, which is a stroke method.
+
+23
+00:02:01,200 --> 00:02:03,180
+We'll talk about a lot more in the future.
+
+24
+00:02:03,180 --> 00:02:07,620
+And just like in a video out into the future, we'll discuss why it's needed.
+
+25
+00:02:08,280 --> 00:02:13,470
+But for now, I'll just make a point that, you know, there's another function that has to be mentioned
+
+26
+00:02:13,470 --> 00:02:16,140
+here that is basically a struct method.
+
+27
+00:02:16,140 --> 00:02:22,290
+That is, you know, we have kind of created the outline for it, but we work on the inner parts of
+
+28
+00:02:22,290 --> 00:02:23,250
+those functions soon.
+
+29
+00:02:23,970 --> 00:02:30,690
+So now coming back to our food percent, right, which is going to be a little different, like I said.
+
+30
+00:02:31,710 --> 00:02:33,030
+So here's standard stuff.
+
+31
+00:02:34,020 --> 00:02:36,180
+We're going to check if it's a beverage or not.
+
+32
+00:02:38,800 --> 00:02:39,250
+And.
+
+33
+00:02:41,570 --> 00:02:41,930
+No.
+
+34
+00:02:43,490 --> 00:02:45,080
+For fruits.
+
+35
+00:02:45,230 --> 00:02:46,910
+There are few values, a few steps.
+
+36
+00:02:47,840 --> 00:02:52,430
+So you can say, if F is good enough, it will have done ten points.
+
+37
+00:02:53,490 --> 00:02:53,680
+Right?
+
+38
+00:02:53,690 --> 00:02:59,420
+So here, since the way this is calculated is different, it's not the same as for all the others.
+
+39
+00:02:59,420 --> 00:02:59,740
+For all.
+
+40
+00:02:59,750 --> 00:03:00,560
+Yeah, that's very common.
+
+41
+00:03:00,560 --> 00:03:03,170
+That's why you could use a get points from each function.
+
+42
+00:03:03,650 --> 00:03:05,450
+And here we want to do it only once.
+
+43
+00:03:05,450 --> 00:03:09,560
+So instead of creating a separate function for foods person because only foods person is going to use
+
+44
+00:03:09,560 --> 00:03:11,990
+it sort of creating a separate function for that.
+
+45
+00:03:12,440 --> 00:03:16,730
+I thought, why don't just find logic in just this function, get by function, don't need a separate
+
+46
+00:03:16,730 --> 00:03:19,970
+function because no other function is going to access it anyways.
+
+47
+00:03:20,630 --> 00:03:25,310
+So here you'll say as f f elseif f f greater than 60.
+
+48
+00:03:27,680 --> 00:03:36,620
+You're done four points as if have them body you you'll return to points.
+
+49
+00:03:38,570 --> 00:03:40,870
+Otherwise, you know, just 4.0.
+
+50
+00:03:45,770 --> 00:03:46,100
+Okay.
+
+51
+00:03:47,450 --> 00:03:49,490
+And now, if it's not equal to the average.
+
+52
+00:03:50,810 --> 00:03:51,530
+Then what do you do?
+
+53
+00:03:53,100 --> 00:03:54,060
+Then you come here.
+
+54
+00:03:56,410 --> 00:03:56,950
+For food.
+
+55
+00:03:57,070 --> 00:04:00,250
+It's as if it's not a beverage or something like that.
+
+56
+00:04:01,090 --> 00:04:02,100
+It'll be good.
+
+57
+00:04:02,110 --> 00:04:03,760
+Then it will check again.
+
+58
+00:04:04,940 --> 00:04:06,130
+A ton of five.
+
+59
+00:04:07,920 --> 00:04:23,280
+And here you'll see, as if after then 60 you will return to and else if you have within 40 you all
+
+60
+00:04:23,330 --> 00:04:26,450
+the time what otherwise it would come to.
+
+61
+00:04:27,720 --> 00:04:32,790
+So in case you're wondering where I'm getting these numbers from and why I have written two for ten,
+
+62
+00:04:32,790 --> 00:04:37,740
+it's all from the same documentation where we got these stages, right, where we got these different
+
+63
+00:04:37,740 --> 00:04:46,020
+steps exactly from the same document or the scientific journal paper is where we got this.
+
+64
+00:04:46,020 --> 00:04:49,080
+This is how you calculate first percentage points.
+
+65
+00:04:49,720 --> 00:04:49,950
+Okay.
+
+66
+00:04:50,370 --> 00:04:54,990
+So since the logic is slightly different, that's why we're not calling this same function again.
+
+67
+00:04:55,410 --> 00:05:02,220
+We just, you know, we're just going into the logic in this function just once instead of making it
+
+68
+00:05:02,220 --> 00:05:03,550
+a separate function that this graph can't.
+
+69
+00:05:03,870 --> 00:05:04,200
+Okay.
+
+70
+00:05:04,770 --> 00:05:09,630
+So just feel free to follow along exactly as I've done, or you can change these values also.
+
+71
+00:05:09,640 --> 00:05:14,730
+So though, the best part is that, you know, you can change these values if you want based on whatever
+
+72
+00:05:14,730 --> 00:05:15,270
+you like them.
+
+73
+00:05:15,510 --> 00:05:17,940
+So this is what they recommend as a standard.
+
+74
+00:05:18,360 --> 00:05:23,430
+But you can make this seven, eight, nine, ten the result that you'll be getting, which will be based
+
+75
+00:05:23,430 --> 00:05:25,650
+on the kind of nutrition calculator that you're making.
+
+76
+00:05:25,710 --> 00:05:27,550
+This is just the norm that they've said it doesn't matter.
+
+77
+00:05:27,570 --> 00:05:29,340
+It doesn't mean that we have to make it that way.
+
+78
+00:05:29,460 --> 00:05:29,820
+Okay.
+
+79
+00:05:30,510 --> 00:05:38,850
+So now in the next video, we want to start working on the maybe there's some points left on the net
+
+80
+00:05:38,880 --> 00:05:39,810
+conditions, what function?
+
+81
+00:05:40,170 --> 00:05:42,300
+Otherwise, we start working on the get you to score function.
+

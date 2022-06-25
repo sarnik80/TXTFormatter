@@ -1,0 +1,544 @@
+1
+00:00:00,600 --> 00:00:05,290
+So VR in our VR squad window right now and we'll start creating our files.
+
+2
+00:00:05,340 --> 00:00:11,460
+So as you know, one flight is going to call me and I'll go and the other is going to be called nutritional
+
+3
+00:00:13,380 --> 00:00:14,160
+score.
+
+4
+00:00:14,400 --> 00:00:14,910
+Don't go.
+
+5
+00:00:17,400 --> 00:00:25,410
+So you have not gone to school not go to may not go well belong to the package mean an additional score
+
+6
+00:00:25,410 --> 00:00:32,910
+will also belong to the package me makes sense and you're just following our plan earlier.
+
+7
+00:00:33,780 --> 00:00:40,140
+Our plan was to have the main which is the package and both of these files belong to the same package.
+
+8
+00:00:40,140 --> 00:00:41,130
+So there's just one score.
+
+9
+00:00:41,730 --> 00:00:43,740
+Okay, so I've written a nutri score.
+
+10
+00:00:43,800 --> 00:00:44,340
+I should have it.
+
+11
+00:00:44,340 --> 00:00:45,360
+And nutritional.
+
+12
+00:00:46,410 --> 00:00:47,820
+Sorry, nutritional score.
+
+13
+00:00:53,150 --> 00:00:53,450
+Okay.
+
+14
+00:00:53,810 --> 00:00:54,800
+So that's the name of the file.
+
+15
+00:00:56,120 --> 00:00:59,090
+So now, based on our plan, we are headed in the right direction.
+
+16
+00:00:59,750 --> 00:01:01,430
+And your main dot go file.
+
+17
+00:01:02,450 --> 00:01:03,020
+What do you want to do?
+
+18
+00:01:03,020 --> 00:01:07,520
+Is you want to import.
+
+19
+00:01:09,580 --> 00:01:16,480
+And for now, I'll just write from here because I'm assuming they'll just need to fmd nothing else.
+
+20
+00:01:17,410 --> 00:01:20,110
+And then the most important thing is you'll have a functioning.
+
+21
+00:01:22,130 --> 00:01:22,430
+Right.
+
+22
+00:01:22,910 --> 00:01:24,710
+You will have a main function.
+
+23
+00:01:25,280 --> 00:01:25,550
+Right.
+
+24
+00:01:25,910 --> 00:01:30,650
+So now you're getting us with line here is because you have included this package FMD, but you have
+
+25
+00:01:30,650 --> 00:01:31,460
+not used it.
+
+26
+00:01:32,780 --> 00:01:38,300
+And in your main file, the most important thing is always the function, because this is where the
+
+27
+00:01:38,300 --> 00:01:40,160
+control enters into the program from.
+
+28
+00:01:41,840 --> 00:01:45,230
+And here, like, you know, from me, not go.
+
+29
+00:01:45,320 --> 00:01:51,120
+If you refer back to your diagram, you're going to call a function called get an additional score function.
+
+30
+00:01:51,200 --> 00:01:53,390
+So let's go ahead and call that function.
+
+31
+00:01:53,390 --> 00:01:54,890
+So we'll to get
+
+32
+00:01:57,270 --> 00:01:58,100
+nutritional
+
+33
+00:02:00,530 --> 00:02:01,340
+score function.
+
+34
+00:02:02,710 --> 00:02:02,920
+Right.
+
+35
+00:02:03,520 --> 00:02:07,450
+And this was taken something, obviously, and it had done something.
+
+36
+00:02:08,500 --> 00:02:14,920
+Whatever it returns will capture that in a variable called in as collected, which is basically an additional
+
+37
+00:02:14,920 --> 00:02:21,040
+score because we expect that this function, good neutral score returns on interest and score at the
+
+38
+00:02:21,040 --> 00:02:21,280
+end.
+
+39
+00:02:21,880 --> 00:02:22,240
+Okay.
+
+40
+00:02:23,110 --> 00:02:28,630
+And what this function takes in the different score function, Dickson, is the nutritional data, but
+
+41
+00:02:28,630 --> 00:02:29,050
+it isn't it.
+
+42
+00:02:29,050 --> 00:02:32,620
+I mean, this is just what you do.
+
+43
+00:02:33,160 --> 00:02:38,290
+So this function is supposed to take all of this nutritional data which the user who is filling in this
+
+44
+00:02:38,290 --> 00:02:40,750
+log is basically going to input all this information.
+
+45
+00:02:41,320 --> 00:02:46,230
+So what you do is you say nutritional data.
+
+46
+00:02:47,690 --> 00:02:48,050
+Okay.
+
+47
+00:02:49,010 --> 00:02:50,150
+And Inside Edition later.
+
+48
+00:02:50,150 --> 00:02:51,500
+You'll pass a lot of things.
+
+49
+00:02:52,910 --> 00:02:53,760
+What will you pass?
+
+50
+00:02:53,780 --> 00:02:58,160
+You'll pass the energy, sugars, all of these things.
+
+51
+00:02:58,160 --> 00:03:00,370
+Saturated fatty acid, sodium fruits.
+
+52
+00:03:00,620 --> 00:03:03,170
+All right, so I'll start writing those things down.
+
+53
+00:03:03,170 --> 00:03:04,370
+So I'll say energy.
+
+54
+00:03:07,040 --> 00:03:26,980
+And I'll say sugars and I'll say saturated fatty acids, sodium, fruits, fiber and protein support,
+
+55
+00:03:27,020 --> 00:03:30,110
+colon and front of all of these values.
+
+56
+00:03:34,840 --> 00:03:45,460
+And for now, I'm just waiting for you here, right, to close this bracket, this food that I've eaten
+
+57
+00:03:45,460 --> 00:03:51,850
+here, that's quite important because that is going to determine our score type.
+
+58
+00:03:52,780 --> 00:03:58,300
+So in this case, this is just an example that I'm sending here, example of, you know, a log.
+
+59
+00:03:58,360 --> 00:04:03,190
+So, for example, just imagine that somebody is sending in a log of the food that he's just eaten and
+
+60
+00:04:03,190 --> 00:04:05,140
+he's entering an additional question, all those things.
+
+61
+00:04:05,980 --> 00:04:10,510
+And at the end, he's saying that this was the score type that I want for this nutritional information,
+
+62
+00:04:10,510 --> 00:04:13,720
+is that I wanted that this is a food item, basically, that I've consumed.
+
+63
+00:04:14,350 --> 00:04:15,970
+If it was beverage, you would have in beverage.
+
+64
+00:04:16,089 --> 00:04:20,079
+So right now, we just as you make food, so let's assume that this is just an example that he's passing
+
+65
+00:04:20,079 --> 00:04:23,000
+right over the nutrition label for a food item that he's just eating.
+
+66
+00:04:23,260 --> 00:04:23,620
+He didn't.
+
+67
+00:04:25,030 --> 00:04:29,320
+But these commas everywhere to separate all of these different values.
+
+68
+00:04:35,620 --> 00:04:35,880
+Right.
+
+69
+00:04:36,870 --> 00:04:40,440
+And out here, you're going to be caught in a couple of functions.
+
+70
+00:04:40,800 --> 00:04:47,090
+So the functions that you'll be calling here is, aren't these ones energy from cake and sugar from
+
+71
+00:04:47,910 --> 00:04:48,680
+saturated fats?
+
+72
+00:04:49,200 --> 00:04:53,900
+Because if you remember, I told you that from our main function, we will call these functions VI,
+
+73
+00:04:54,210 --> 00:05:01,200
+because the user is going to give rough values or the values for all these things like energy and sugar
+
+74
+00:05:01,200 --> 00:05:01,590
+and all that.
+
+75
+00:05:03,390 --> 00:05:10,590
+But he wouldn't know the exact units and what we need the exact units to be able to process this information
+
+76
+00:05:10,590 --> 00:05:12,030
+into an actual nutritional score.
+
+77
+00:05:13,110 --> 00:05:17,880
+So this is why we will call all of these different functions for all of the different things separately.
+
+78
+00:05:17,890 --> 00:05:20,010
+So for energy will send it to energy from again.
+
+79
+00:05:20,070 --> 00:05:22,560
+For sugar will send it to sugar gram function.
+
+80
+00:05:23,100 --> 00:05:23,700
+Saturated fat.
+
+81
+00:05:23,720 --> 00:05:26,550
+It it will go to a saturated fatty acid grams function.
+
+82
+00:05:26,790 --> 00:05:30,630
+Sodium will go to sodium mg function and so on.
+
+83
+00:05:30,990 --> 00:05:36,840
+So we'll say for energy, you would say energy from take out function.
+
+84
+00:05:38,040 --> 00:05:41,490
+So essentially what's happening here is we just processing all of that information that a user is giving
+
+85
+00:05:41,490 --> 00:05:46,650
+us and converting that into the proper units that are required for us to be able to process that information,
+
+86
+00:05:46,650 --> 00:05:48,110
+to be able to give it some nutritional support.
+
+87
+00:05:48,400 --> 00:05:48,690
+Okay.
+
+88
+00:05:49,080 --> 00:05:50,340
+Right now is this nutrition data.
+
+89
+00:05:50,880 --> 00:05:52,830
+But from this data, we want a nutritional score.
+
+90
+00:05:53,250 --> 00:05:53,530
+Right.
+
+91
+00:05:53,550 --> 00:05:57,090
+And to be able to do that, we need to get the right units first.
+
+92
+00:05:57,840 --> 00:05:58,590
+So four sugars.
+
+93
+00:05:58,590 --> 00:06:00,870
+We have sugar gram.
+
+94
+00:06:04,250 --> 00:06:05,540
+For saturated fatty acids.
+
+95
+00:06:05,540 --> 00:06:09,350
+We have saturated fatty acids.
+
+96
+00:06:11,120 --> 00:06:11,360
+All right.
+
+97
+00:06:12,140 --> 00:06:16,160
+For now, just keep these brackets empty because we'll put some actual values there.
+
+98
+00:06:16,250 --> 00:06:19,640
+But for now, let's keep them empty for sodium.
+
+99
+00:06:19,650 --> 00:06:23,810
+Like I said, we're calling sodium mg function.
+
+100
+00:06:25,550 --> 00:06:31,700
+And for fruits, we are calling fruits coarse and function fiber.
+
+101
+00:06:31,700 --> 00:06:34,790
+We're calling fiber gram function.
+
+102
+00:06:34,910 --> 00:06:41,180
+And for protein, we're calling protein gram function.
+
+103
+00:06:43,330 --> 00:06:47,830
+Now Golang knows that all these functions don't really exist.
+
+104
+00:06:47,830 --> 00:06:54,670
+And the package man, even nutritionally, the function doesn't exist outside the division squad function
+
+105
+00:06:54,670 --> 00:06:55,510
+doesn't exist, right?
+
+106
+00:06:56,020 --> 00:06:59,860
+So we'll have to go ahead and create definitions of these functions.
+
+107
+00:06:59,890 --> 00:07:01,540
+That's why we're getting all these quick lines, right?
+
+108
+00:07:01,540 --> 00:07:03,010
+That these functions don't exist right now.
+
+109
+00:07:04,450 --> 00:07:05,290
+And there's nothing.
+
+110
+00:07:05,320 --> 00:07:06,970
+It doesn't mean anything unless food.
+
+111
+00:07:08,860 --> 00:07:13,060
+But you'll get something from.
+
+112
+00:07:15,690 --> 00:07:16,470
+Something back, right?
+
+113
+00:07:16,470 --> 00:07:17,880
+Will get back nestled here.
+
+114
+00:07:18,690 --> 00:07:22,530
+Whatever dysfunction it does, you'll get back into the nutrition squad, which is like the most important
+
+115
+00:07:22,530 --> 00:07:24,570
+thing you remember from the diagram.
+
+116
+00:07:24,690 --> 00:07:31,800
+What we want to return from this whole thing, from this whole functional, this, you know, program.
+
+117
+00:07:31,800 --> 00:07:33,450
+The end result is the nutritional score.
+
+118
+00:07:33,480 --> 00:07:39,040
+We already know that, which is basically unless I if you get in its back, you also want to print it
+
+119
+00:07:39,060 --> 00:07:42,000
+and say and be right brain death.
+
+120
+00:07:44,190 --> 00:07:45,660
+Just make sure you get the spelling off.
+
+121
+00:07:45,660 --> 00:07:46,380
+Print out right.
+
+122
+00:07:48,270 --> 00:07:54,350
+If you want to print nutritional score
+
+123
+00:07:56,990 --> 00:08:02,030
+positivity, come on and start
+
+124
+00:08:04,670 --> 00:08:05,180
+value.
+
+125
+00:08:08,380 --> 00:08:08,830
+Awesome.
+
+126
+00:08:09,340 --> 00:08:09,820
+This is audio.
+
+127
+00:08:09,820 --> 00:08:12,100
+Don't just print out the value off the nutritional score.
+
+128
+00:08:13,330 --> 00:08:14,650
+So why do I say value?
+
+129
+00:08:14,650 --> 00:08:22,480
+Because you've already seen that the nutritional score has the main important thing.
+
+130
+00:08:22,480 --> 00:08:24,430
+As value has a positive or negative score.
+
+131
+00:08:25,420 --> 00:08:27,120
+It also has the most one thing as value.
+
+132
+00:08:27,120 --> 00:08:28,150
+And this is what you want to print out.
+
+133
+00:08:28,270 --> 00:08:29,410
+This is the value, right?
+
+134
+00:08:29,650 --> 00:08:31,780
+Is that final score, as you already know.
+
+135
+00:08:33,640 --> 00:08:34,990
+So this is your main or go file.
+
+136
+00:08:35,049 --> 00:08:39,490
+And now let's head over to our nutrition on your initial score to go file.
+

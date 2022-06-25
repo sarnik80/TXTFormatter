@@ -1,0 +1,420 @@
+1
+00:00:00,360 --> 00:00:05,580
+Now, one important thing to keep in mind is for all of these methods to get points, methods you want
+
+2
+00:00:05,580 --> 00:00:11,840
+to be passing the scored type in all of these in some see VI.
+
+3
+00:00:12,090 --> 00:00:20,250
+But for now, just write SD And all of these functions that you're sending SD basically out here, the
+
+4
+00:00:20,250 --> 00:00:20,880
+score type.
+
+5
+00:00:21,710 --> 00:00:24,210
+Okay, it over.
+
+6
+00:00:26,430 --> 00:00:30,810
+Now like I said, you know these are not functions get points is not a function get point is a method
+
+7
+00:00:30,810 --> 00:00:36,750
+and you'll have a separate method for fruits and a separate get point method for five separate get good
+
+8
+00:00:36,750 --> 00:00:37,800
+points for the for energy.
+
+9
+00:00:38,220 --> 00:00:43,080
+And all of these methods will help us calculate those points for all of these different things, because
+
+10
+00:00:43,080 --> 00:00:46,500
+foods need to be treated differently if I want it to be treated differently.
+
+11
+00:00:46,980 --> 00:00:50,280
+And you got to know that energy sugars, protein have to be treated differently.
+
+12
+00:00:50,580 --> 00:00:58,290
+The reason they have to be treated differently is because they have different.
+
+13
+00:01:00,330 --> 00:01:00,810
+Units.
+
+14
+00:01:01,350 --> 00:01:01,680
+Okay.
+
+15
+00:01:01,830 --> 00:01:03,450
+So that's why they have to be all due to different.
+
+16
+00:01:05,420 --> 00:01:15,020
+So now we'll have let's start writing at least the outlines of all of our mythologies that we'll be
+
+17
+00:01:15,020 --> 00:01:15,350
+needing.
+
+18
+00:01:16,400 --> 00:01:20,180
+So we'll need let's start with energy.
+
+19
+00:01:20,180 --> 00:01:23,360
+So we need a metric for energy, a get points method for energy.
+
+20
+00:01:23,360 --> 00:01:27,860
+So a funk get points.
+
+21
+00:01:31,850 --> 00:01:32,060
+All right.
+
+22
+00:01:32,060 --> 00:01:33,680
+This is how you define a funk function.
+
+23
+00:01:34,580 --> 00:01:35,840
+But like I said, it's not a function.
+
+24
+00:01:35,840 --> 00:01:39,350
+It's a method of energy.
+
+25
+00:01:39,590 --> 00:01:40,340
+So energy.
+
+26
+00:01:40,340 --> 00:01:44,150
+K.G., JJ is the flute that you've defined the type of define.
+
+27
+00:01:44,780 --> 00:01:46,900
+So you'll say energy caging.
+
+28
+00:01:48,200 --> 00:01:52,280
+And here you'll have to say E, because that's the particular variable that you'll get here.
+
+29
+00:01:53,330 --> 00:02:02,480
+And as you know that this get points function accepts a s t the score diepsloot and c s-t is the squat
+
+30
+00:02:02,480 --> 00:02:03,620
+type that you would accept.
+
+31
+00:02:07,060 --> 00:02:14,020
+The get points function is supposed to return and end because you want to you want to get it from here
+
+32
+00:02:14,350 --> 00:02:15,820
+so that all of that ends will come.
+
+33
+00:02:16,330 --> 00:02:19,750
+We'll add them up and we'll create one negative value in one positive that is immediately.
+
+34
+00:02:21,900 --> 00:02:23,620
+So as soon as you define dysfunction, right?
+
+35
+00:02:24,010 --> 00:02:24,590
+Good point.
+
+36
+00:02:24,600 --> 00:02:28,650
+As soon as you talked about dysfunction, the squall line out here is going to go long noted agonizes
+
+37
+00:02:28,650 --> 00:02:30,330
+that okay, dysfunction.
+
+38
+00:02:30,330 --> 00:02:31,980
+Is there somewhere this man is already dead.
+
+39
+00:02:34,290 --> 00:02:34,770
+And.
+
+40
+00:02:35,550 --> 00:02:37,290
+But there's this big line out here still.
+
+41
+00:02:38,110 --> 00:02:38,730
+It's because.
+
+42
+00:02:41,540 --> 00:02:43,280
+There's no written statement and that's all.
+
+43
+00:02:43,520 --> 00:02:46,250
+We'll talk about what we're going to have done from this method, in a way.
+
+44
+00:02:47,870 --> 00:02:50,030
+But now you have this for energy.
+
+45
+00:02:50,180 --> 00:02:51,710
+You want to have this for structures as well.
+
+46
+00:02:52,100 --> 00:02:53,210
+So let's write the one for each.
+
+47
+00:02:53,430 --> 00:02:57,740
+So we'll say -- and get.
+
+48
+00:02:58,870 --> 00:02:59,470
+Points.
+
+49
+00:03:01,120 --> 00:03:06,490
+You know, it takes a school day and you know it it doesn't.
+
+50
+00:03:06,790 --> 00:03:09,640
+The only difference will come here will be down here.
+
+51
+00:03:09,760 --> 00:03:15,160
+It will be sugar ground and we will use SX for sugar ground.
+
+52
+00:03:18,440 --> 00:03:23,390
+Now, as soon as we did that, you can see the squiggly line for sugars get points functional so that's
+
+53
+00:03:23,390 --> 00:03:23,750
+gonna be.
+
+54
+00:03:25,420 --> 00:03:28,960
+And the next function that you want to create, the next method that you want to create as far as saturated
+
+55
+00:03:28,960 --> 00:03:29,740
+fatty acids.
+
+56
+00:03:31,300 --> 00:03:36,100
+So I can go here and you'll see funk again.
+
+57
+00:03:36,100 --> 00:03:37,150
+Same thing at points.
+
+58
+00:03:42,290 --> 00:03:43,040
+And it's.
+
+59
+00:03:44,840 --> 00:03:50,390
+Estes Park score date and.
+
+60
+00:03:53,680 --> 00:03:54,970
+Around here you'll see.
+
+61
+00:03:56,230 --> 00:04:00,400
+Saturated fatty acids will use a user.
+
+62
+00:04:00,400 --> 00:04:01,450
+William Blake SFA.
+
+63
+00:04:02,940 --> 00:04:03,480
+For that.
+
+64
+00:04:04,470 --> 00:04:10,350
+So now when you did this, your schooling for SFE also has a really good points function.
+
+65
+00:04:12,250 --> 00:04:14,860
+Now you'll work for sodium.
+
+66
+00:04:15,370 --> 00:04:16,209
+So you'll say.
+
+67
+00:04:19,149 --> 00:04:19,470
+From.
+
+68
+00:04:21,980 --> 00:04:29,600
+And get points as to school type
+
+69
+00:04:32,630 --> 00:04:33,110
+and.
+
+70
+00:04:36,140 --> 00:04:41,810
+Forget points, you'll say S which is a type sodium mg because that's what you would define here.
+
+71
+00:04:41,810 --> 00:04:43,190
+You've defined sporting mg, right?
+
+72
+00:04:47,020 --> 00:04:48,120
+And this function was also done.
+
+73
+00:04:49,430 --> 00:04:50,330
+Squiggles and God scores.
+
+74
+00:04:50,330 --> 00:04:57,020
+Okay, now we're left with the get points for fiber, fruit and protein.
+
+75
+00:04:57,350 --> 00:04:58,490
+These three functions need to be done.
+
+76
+00:04:59,540 --> 00:05:02,390
+So let's look for the fruits once and see some.
+
+77
+00:05:04,870 --> 00:05:06,220
+We get points.
+
+78
+00:05:08,360 --> 00:05:13,310
+SD as score type and integer.
+
+79
+00:05:14,910 --> 00:05:18,390
+Funk here is Broots person.
+
+80
+00:05:21,320 --> 00:05:25,430
+Right now going to do the same for fiber and protein.
+
+81
+00:05:25,430 --> 00:05:26,420
+These are the only two things left.
+
+82
+00:05:26,780 --> 00:05:30,890
+So when you go here to look at the screen, Langley protein and fiber, those two things are left.
+
+83
+00:05:31,070 --> 00:05:32,690
+So let's say for bunk.
+
+84
+00:05:37,530 --> 00:05:38,070
+Um.
+
+85
+00:05:40,080 --> 00:05:42,330
+I have will be if I were Graham.
+
+86
+00:05:44,940 --> 00:05:55,380
+So, sir, if I were Graham get points as to the school time and teacher.
+
+87
+00:05:58,660 --> 00:05:58,990
+Right.
+
+88
+00:06:00,430 --> 00:06:02,830
+And you'll have it for protein GRAMSRAMS.
+
+89
+00:06:02,890 --> 00:06:05,140
+The protein gram.
+
+90
+00:06:05,800 --> 00:06:06,610
+Get points.
+
+91
+00:06:09,450 --> 00:06:13,770
+Jason has just caught up.
+
+92
+00:06:16,100 --> 00:06:19,730
+And Scott, I like the guns and.
+
+93
+00:06:23,040 --> 00:06:27,840
+So all of these functions are get points function, but they're all methods, they're not functions
+
+94
+00:06:27,840 --> 00:06:30,030
+and they're all for different things.
+
+95
+00:06:30,240 --> 00:06:33,090
+One is for protein, one is for fiber lines, for for presidents.
+
+96
+00:06:33,600 --> 00:06:40,080
+So we're calling all these methods here and we're passing score types here, but they're all different.
+
+97
+00:06:40,080 --> 00:06:45,720
+They're all going to be, you know, handling different type of data and adding different types of values.
+
+98
+00:06:47,340 --> 00:06:52,260
+So this is basically what I want to show you that now we have you know, we've been creating the outlines
+
+99
+00:06:52,260 --> 00:06:58,140
+of all the functions and we're basically understanding how things are going to fall together properly.
+
+100
+00:06:58,620 --> 00:07:02,100
+And I'm sure everything is also kind of making sense to you that, you know, this is how we had written
+
+101
+00:07:02,190 --> 00:07:08,310
+it and scored what it needs, detailed initial score and you know, what are these different types and
+
+102
+00:07:08,310 --> 00:07:10,740
+why we're using all these methods, all of that.
+
+103
+00:07:11,130 --> 00:07:16,860
+I'm sure things have started to make sense and if not, we'll write more and more code and everything
+
+104
+00:07:16,860 --> 00:07:18,210
+will start coming together.
+
+105
+00:07:18,210 --> 00:07:19,230
+And I think that makes sense to you.
+

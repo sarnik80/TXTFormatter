@@ -1,0 +1,156 @@
+1
+00:00:00,570 --> 00:00:06,870
+So whenever a user is logging what he has eaten so that our calculator is able to calculate the nutritional
+
+2
+00:00:06,870 --> 00:00:14,970
+score for that food item, food or drink or beverage, he's basically going to give us the energy sugars,
+
+3
+00:00:14,970 --> 00:00:17,760
+saturated fatty acids, sodium fluids, fiber protein.
+
+4
+00:00:18,960 --> 00:00:22,050
+And he's going to tell us if it's water or not as water or not.
+
+5
+00:00:23,970 --> 00:00:30,870
+So the user will basically give us this information, at least in a basic raw format, and we'll have
+
+6
+00:00:30,870 --> 00:00:33,060
+a function called get nutritional score function.
+
+7
+00:00:33,060 --> 00:00:34,980
+So the spelling here is wrong.
+
+8
+00:00:34,980 --> 00:00:36,810
+So C, get nutritional score function.
+
+9
+00:00:37,620 --> 00:00:42,600
+And at the end, the end result for us is to get a nutritional score.
+
+10
+00:00:43,470 --> 00:00:47,850
+So we'd be accepting all this information from the user if it's water or not, if it's a beverage,
+
+11
+00:00:48,000 --> 00:00:48,660
+all of those things.
+
+12
+00:00:49,710 --> 00:00:53,900
+And we'll have a function called good nutrients called function and we'll be getting the nutrition score.
+
+13
+00:00:53,910 --> 00:00:57,930
+This is the most important thing and this is what we want and are not able to do.
+
+14
+00:00:58,470 --> 00:01:02,730
+And you already know that nutritional score will have a positive negative based on, you know, if it
+
+15
+00:01:02,730 --> 00:01:06,540
+has a lot of sugar or sodium or it has a lot of fiber and protein, which these are two are positive,
+
+16
+00:01:07,110 --> 00:01:07,950
+these two are negative.
+
+17
+00:01:08,340 --> 00:01:13,800
+So based on that, the final calculation and also have a score type which as you know, it's food,
+
+18
+00:01:13,800 --> 00:01:17,670
+beverage, water, cheese will have a final value, which is the nutritional score.
+
+19
+00:01:18,210 --> 00:01:20,270
+So all of that is happening in this function.
+
+20
+00:01:20,280 --> 00:01:22,140
+And this function obviously will call multiple functions.
+
+21
+00:01:22,140 --> 00:01:25,440
+And the end result of this function is the nutritional score.
+
+22
+00:01:25,650 --> 00:01:26,630
+This is something that we need.
+
+23
+00:01:26,640 --> 00:01:26,930
+Right?
+
+24
+00:01:27,210 --> 00:01:29,970
+And this is based on this nutritional data that the user would give us.
+
+25
+00:01:30,660 --> 00:01:35,310
+So by now, till now, you've understood that we're going to have a function.
+
+26
+00:01:35,880 --> 00:01:38,850
+So whenever we like to go right, we're going to have a function called nutrition score function.
+
+27
+00:01:39,870 --> 00:01:45,360
+And you know, that will be the mean and goal of our calculator is to return something called as the
+
+28
+00:01:45,360 --> 00:01:52,230
+nutritional score and the user, when he inputs something, will have all of these values.
+
+29
+00:01:54,680 --> 00:02:00,520
+We can either accept it from a CLIA write or we can have our may not go file to accept all these values
+
+30
+00:02:00,590 --> 00:02:04,790
+or to accept or to be basically keep these as variables, basically.
+
+31
+00:02:05,270 --> 00:02:09,979
+So we'll use I mean, go file and we'll keep all of these things as a variable rather than accepting
+
+32
+00:02:09,979 --> 00:02:14,520
+it from a CLIA, because our next two projects are about building CLIA applications.
+
+33
+00:02:14,720 --> 00:02:18,480
+So in this first project, we'll have a different approach.
+
+34
+00:02:18,500 --> 00:02:18,830
+Okay.
+
+35
+00:02:20,180 --> 00:02:26,090
+So we'll be accepting this from our from the user and we'll be basically tracking all of these things.
+
+36
+00:02:26,120 --> 00:02:27,950
+So we already know that we'll be tracking all these things, right?
+
+37
+00:02:28,340 --> 00:02:34,310
+And we also know that these are the units that will follow to track and calculate all of those values.
+
+38
+00:02:34,910 --> 00:02:38,150
+And at the end, as you know, you will get the nutritional score.
+
+39
+00:02:39,470 --> 00:02:42,020
+So this is what I basically wanted to show you the entire picture of.
+

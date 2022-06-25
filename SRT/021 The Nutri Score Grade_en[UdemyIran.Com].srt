@@ -1,0 +1,524 @@
+1
+00:00:00,800 --> 00:00:04,500
+Now the purpose of nutritional score was to calculate this value.
+
+2
+00:00:04,500 --> 00:00:07,350
+Finally, Nutri Score is slightly different.
+
+3
+00:00:07,710 --> 00:00:11,400
+You just score with diseases that you don't.
+
+4
+00:00:11,490 --> 00:00:16,530
+Even when you got the points back, you got two points for every single food and then you calculated
+
+5
+00:00:16,530 --> 00:00:19,080
+the final value for that food item.
+
+6
+00:00:20,650 --> 00:00:24,910
+You want to get like a grade, you know, ABCD, that kind of a score is what you want.
+
+7
+00:00:27,250 --> 00:00:28,900
+So this is going one step ahead.
+
+8
+00:00:28,930 --> 00:00:30,220
+I mean, you don't have to do this.
+
+9
+00:00:30,460 --> 00:00:33,630
+You can end it at having a value, having an individual score.
+
+10
+00:00:33,640 --> 00:00:36,040
+And this is why I showed you at the end.
+
+11
+00:00:36,070 --> 00:00:40,060
+You know how you can that one, we can do something called Nutri Score as well.
+
+12
+00:00:40,450 --> 00:00:45,790
+So you've just got as just going ahead a one step ahead, taking whatever you've done to another level.
+
+13
+00:00:46,150 --> 00:00:47,080
+It's not required.
+
+14
+00:00:47,110 --> 00:00:47,950
+Not compulsory.
+
+15
+00:00:47,950 --> 00:00:48,910
+Completely optional.
+
+16
+00:00:48,910 --> 00:00:49,210
+Right.
+
+17
+00:00:49,540 --> 00:00:51,940
+And if you have calculated the value, that's good enough.
+
+18
+00:00:52,390 --> 00:00:53,770
+But here we just going one step ahead.
+
+19
+00:00:53,770 --> 00:00:58,870
+We're seeing that, you know, just having the value of what into the score is not enough.
+
+20
+00:00:59,290 --> 00:01:08,020
+Having a grade like ABC D could be, you know, more acceptable in some places and some, you know,
+
+21
+00:01:08,290 --> 00:01:13,970
+like, let's say if you are if you've consumed some food product, you might not want just to score
+
+22
+00:01:13,970 --> 00:01:21,190
+a point for that, you might just want ABC has it that is in bad faith based on, you know, ABC, those
+
+23
+00:01:21,190 --> 00:01:22,150
+kind of ranking.
+
+24
+00:01:22,600 --> 00:01:25,930
+So you can do that and it's not very difficult.
+
+25
+00:01:26,590 --> 00:01:37,310
+What we will do here actually is create a new variable called score to measure.
+
+26
+00:01:38,020 --> 00:01:42,760
+So we'll take the score from the food like, you know, the total of the points you got.
+
+27
+00:01:42,760 --> 00:01:49,390
+You had got logic to calculate points and then you calculate the value by having positive and negative
+
+28
+00:01:49,390 --> 00:01:51,160
+points for all of the different things.
+
+29
+00:01:52,480 --> 00:02:00,280
+And now you'll take that score and you can imagine two letters greater meaning like this.
+
+30
+00:02:04,560 --> 00:02:06,900
+A, B, C and D.
+
+31
+00:02:08,039 --> 00:02:13,890
+Only thing to remember is to cover them and to end these double quotes as these are strings.
+
+32
+00:02:25,300 --> 00:02:26,890
+So this slice.
+
+33
+00:02:28,150 --> 00:02:38,260
+Call squad later as well will be using to take the squad that you'll get and to convert it into a letter.
+
+34
+00:02:39,640 --> 00:02:40,030
+Okay.
+
+35
+00:02:41,260 --> 00:02:50,610
+So here's what you'll do now is you'll see if all smiles or if there's start squad type is fooled,
+
+36
+00:02:52,060 --> 00:02:53,110
+then you'll return.
+
+37
+00:02:53,860 --> 00:02:55,300
+Score two letter.
+
+38
+00:02:58,320 --> 00:02:58,650
+Okay.
+
+39
+00:02:59,790 --> 00:03:03,900
+So for food, you want to do something for water or you want to do something else?
+
+40
+00:03:04,020 --> 00:03:06,360
+It's our first dart court type.
+
+41
+00:03:12,440 --> 00:03:13,370
+You are something else.
+
+42
+00:03:14,880 --> 00:03:20,850
+And otherwise, you ought to do something else.
+
+43
+00:03:21,660 --> 00:03:22,020
+Okay.
+
+44
+00:03:24,240 --> 00:03:28,110
+So he'd also have done school letters.
+
+45
+00:03:29,730 --> 00:03:31,140
+And here it is, valued at one.
+
+46
+00:03:36,110 --> 00:03:38,410
+I scored the letter.
+
+47
+00:03:39,110 --> 00:03:43,400
+So we're checking for food or water and for everything else except food and water, which is basically
+
+48
+00:03:43,400 --> 00:03:44,120
+cheese and beverage.
+
+49
+00:03:44,930 --> 00:03:45,260
+Okay.
+
+50
+00:03:45,890 --> 00:03:47,110
+So for food, what do you want to do?
+
+51
+00:03:47,150 --> 00:03:50,270
+You want to first say you get points from dinner.
+
+52
+00:03:51,350 --> 00:03:51,710
+Okay.
+
+53
+00:03:52,700 --> 00:03:57,200
+And you want to say 464 and start spending.
+
+54
+00:03:59,060 --> 00:04:05,450
+So earlier when we were calling this function called get points from range from any of these functions,
+
+55
+00:04:05,900 --> 00:04:10,460
+when you're calling this function, get points on range, you are passing the amount of fiber, the
+
+56
+00:04:10,460 --> 00:04:16,160
+amount of protein, the amount of sugar basically into that function at points on range.
+
+57
+00:04:17,480 --> 00:04:22,610
+But right now, the final value that you have, which is an assault value, it's a nutritional score
+
+58
+00:04:22,610 --> 00:04:23,510
+dot value.
+
+59
+00:04:24,170 --> 00:04:25,550
+The value is what you're passing here.
+
+60
+00:04:26,000 --> 00:04:36,110
+So you took the amount of sodium and fiber and protein, all of that, and you got points using our
+
+61
+00:04:36,110 --> 00:04:41,060
+get points from the instruction you get toward those points and then using those points, you calculate
+
+62
+00:04:41,060 --> 00:04:41,860
+the final value.
+
+63
+00:04:41,930 --> 00:04:42,590
+This is what we did.
+
+64
+00:04:42,590 --> 00:04:45,260
+And they get into some support function called defined value.
+
+65
+00:04:46,490 --> 00:04:51,920
+And now using that value we are again calling the same function, get points from the intervention and
+
+66
+00:04:51,920 --> 00:04:58,730
+getting back a particular score and then using that score to find the letter equivalent score of that.
+
+67
+00:04:59,900 --> 00:05:01,910
+So here you will see flawed.
+
+68
+00:05:03,890 --> 00:05:13,070
+And again, the values that we are passing here are basically steps like these steps and these are the
+
+69
+00:05:13,070 --> 00:05:15,920
+official steps given to us in that documentation.
+
+70
+00:05:15,920 --> 00:05:19,490
+So adding comma ten and two, comma x one.
+
+71
+00:05:20,960 --> 00:05:22,130
+So we're passing these steps.
+
+72
+00:05:23,390 --> 00:05:26,300
+As you can see, steps is what this function.
+
+73
+00:05:26,300 --> 00:05:27,970
+Dixon Get on French.
+
+74
+00:05:28,010 --> 00:05:28,760
+Dixon step ten.
+
+75
+00:05:28,760 --> 00:05:29,810
+Dixon the value.
+
+76
+00:05:30,540 --> 00:05:31,400
+So if passport.
+
+77
+00:05:33,440 --> 00:05:39,830
+And based on that, whatever score it gets like one, two, three or four or five, whatever you will
+
+78
+00:05:39,830 --> 00:05:42,200
+get squad two later.
+
+79
+00:05:44,150 --> 00:05:45,020
+So what's happening here?
+
+80
+00:05:45,020 --> 00:05:47,360
+Essentially, let me show you in a comment.
+
+81
+00:05:47,810 --> 00:05:50,600
+So squad leader has this kind of slice.
+
+82
+00:05:50,600 --> 00:05:59,010
+It has a, B, C, D rank.
+
+83
+00:05:59,780 --> 00:06:00,710
+It has something like this.
+
+84
+00:06:01,640 --> 00:06:02,720
+It has a slice like this.
+
+85
+00:06:04,130 --> 00:06:15,170
+And when you see it's called two letters and you call these functions here, you will get a score.
+
+86
+00:06:15,920 --> 00:06:17,910
+You will get a score like you don't see it all.
+
+87
+00:06:17,920 --> 00:06:19,880
+One, two, three, four, whatever.
+
+88
+00:06:20,180 --> 00:06:20,990
+And here to
+
+89
+00:06:23,780 --> 00:06:26,780
+help us go like this back from this function.
+
+90
+00:06:27,380 --> 00:06:34,940
+So if you get a score of one, so you know that score of one score, the letter of one, which is this
+
+91
+00:06:34,940 --> 00:06:36,920
+index is B.
+
+92
+00:06:38,390 --> 00:06:41,270
+You know that I took the score would be the final.
+
+93
+00:06:42,180 --> 00:06:49,350
+Nutri score that you get if you get score two letter and these brackets whether it comes back from this
+
+94
+00:06:49,350 --> 00:06:57,210
+function get points from the instruction is let's say to you will have the value of C that that will
+
+95
+00:06:57,210 --> 00:07:00,360
+be the final distance nutri score.
+
+96
+00:07:02,500 --> 00:07:03,700
+So having cleared that.
+
+97
+00:07:05,700 --> 00:07:12,150
+And I would say that for Walter Scott, letters of zero, which is basically a great sweater, will
+
+98
+00:07:12,150 --> 00:07:16,050
+always be engraved and it turns gold letter off.
+
+99
+00:07:17,400 --> 00:07:26,190
+You get going from range floored 64 and again has dot value.
+
+100
+00:07:28,470 --> 00:07:36,150
+You will have a flawed 64 off nine comma 5.1 common master.
+
+101
+00:07:41,590 --> 00:07:42,280
+All right.
+
+102
+00:07:44,540 --> 00:07:47,930
+So this completes most of our program.
+
+103
+00:07:49,880 --> 00:07:50,030
+Right.
+
+104
+00:07:51,260 --> 00:07:53,390
+We have our get points functions.
+
+105
+00:07:53,390 --> 00:07:55,250
+We have our good nutrition score function.
+
+106
+00:07:55,970 --> 00:08:00,560
+We have our get nutri score function and get points from range and.
+
+107
+00:08:02,040 --> 00:08:05,100
+Still in your go fight, you'll see all the squiggly lines.
+
+108
+00:08:05,670 --> 00:08:08,260
+And the reason for that is you have to pass some values here.
+
+109
+00:08:08,280 --> 00:08:19,320
+So let's say you pass zero here, then here you pass to here, 500 milligrams of sodium.
+
+110
+00:08:20,220 --> 00:08:23,400
+You pass 60 here for here.
+
+111
+00:08:25,810 --> 00:08:34,140
+You know, whenever a user consumes some food item or any item, he will get this nutritional information
+
+112
+00:08:34,140 --> 00:08:36,809
+from the food item that he's consuming, maybe from the labels.
+
+113
+00:08:37,020 --> 00:08:41,669
+You know, and what he's going to do is he's going to come here and he's going to basically input this
+
+114
+00:08:41,669 --> 00:08:41,970
+value.
+
+115
+00:08:42,020 --> 00:08:46,200
+Now, like I said, you know, we have not been to select a will that interacts with the user to take
+
+116
+00:08:46,200 --> 00:08:46,780
+these values.
+
+117
+00:08:46,800 --> 00:08:49,920
+That's because the other two projects that we have are both CLIA rules.
+
+118
+00:08:50,340 --> 00:08:54,220
+So I didn't want you to I didn't want to have the same pattern that you just selected.
+
+119
+00:08:54,960 --> 00:08:58,500
+So that's why we're just accepting values now from this func main function.
+
+120
+00:08:59,040 --> 00:09:03,180
+Now, you can accept these values from a friend and you can build a small front in an email or even
+
+121
+00:09:03,180 --> 00:09:05,990
+in React and accept these values on your computer.
+
+122
+00:09:06,420 --> 00:09:11,010
+Or you could put a very simple zero rule buildings here that will see in our second and third projects.
+
+123
+00:09:11,490 --> 00:09:12,960
+So, you know, zero balance.
+
+124
+00:09:13,350 --> 00:09:15,990
+So you could have accepted these values from your Sierra two as well.
+
+125
+00:09:16,890 --> 00:09:22,440
+But here, just because this is the first project it's supposed to the simplest project will be accepting
+
+126
+00:09:22,440 --> 00:09:24,150
+values from our directly from our main function.
+
+127
+00:09:24,600 --> 00:09:24,810
+Right.
+
+128
+00:09:24,810 --> 00:09:29,000
+So anything you want to change these values, we can come here and just edit them the way you want to.
+
+129
+00:09:29,550 --> 00:09:29,790
+Okay.
+
+130
+00:09:29,790 --> 00:09:34,020
+So for now, I'm just digging up these these particular values.
+
+131
+00:09:34,980 --> 00:09:38,250
+And let's go over everything once again very quickly.
+

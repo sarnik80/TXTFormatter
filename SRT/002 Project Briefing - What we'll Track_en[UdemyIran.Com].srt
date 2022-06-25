@@ -1,0 +1,92 @@
+1
+00:00:00,840 --> 00:00:04,740
+Since it's a nutritional calculator, here are the things that we'll be tracking.
+
+2
+00:00:05,670 --> 00:00:10,830
+We'll be tracking the energy levels, the sugar levels, sodium levels.
+
+3
+00:00:11,670 --> 00:00:13,060
+So what are you most basically from salt?
+
+4
+00:00:14,020 --> 00:00:22,050
+Fiber that can come from fruits, protein levels, saturated fat, fatty acid levels, energy levels
+
+5
+00:00:22,050 --> 00:00:24,420
+of beverage and sugar levels of a beverage.
+
+6
+00:00:26,130 --> 00:00:31,950
+So these are the general things that we'll be tracking in every food group or any food that the user
+
+7
+00:00:31,950 --> 00:00:32,580
+wants to log in.
+
+8
+00:00:33,270 --> 00:00:39,990
+So basically the idea will be that the user will be seeing that this is what I had for for food, and
+
+9
+00:00:39,990 --> 00:00:42,600
+he'll probably be sending us a lot of information.
+
+10
+00:00:42,600 --> 00:00:45,070
+So I'll show you how the information would be sent to us.
+
+11
+00:00:45,690 --> 00:00:49,320
+But the things that we do tracking in our nutrition calculator will be these major things.
+
+12
+00:00:49,800 --> 00:00:51,480
+So as you can see, we're tracking quite a few things.
+
+13
+00:00:51,480 --> 00:00:55,640
+We're tracking the energy levels, which are basically your calories are killer calories and your sugars.
+
+14
+00:00:55,650 --> 00:00:59,130
+It's just basically grams of sugar that the person has eaten.
+
+15
+00:00:59,310 --> 00:01:01,680
+Milligrams of sodium and fiber and protein.
+
+16
+00:01:03,000 --> 00:01:06,150
+And we'll also be checking the saturated fatty acid doubles energy levels.
+
+17
+00:01:06,630 --> 00:01:10,350
+So for a beverage that had you levels and sugar levels would be little different.
+
+18
+00:01:10,440 --> 00:01:14,730
+So that's why I've kept energy levels of beverage and sugar levels of beverage as a separate entity
+
+19
+00:01:14,730 --> 00:01:15,450
+that we'll be checking.
+
+20
+00:01:17,520 --> 00:01:22,020
+So for us to come to know that this is a beverage or a food item will have to do something for that
+
+21
+00:01:22,020 --> 00:01:22,350
+as well.
+
+22
+00:01:22,350 --> 00:01:22,590
+Right.
+
+23
+00:01:22,650 --> 00:01:24,190
+So let's discuss about that also.
+

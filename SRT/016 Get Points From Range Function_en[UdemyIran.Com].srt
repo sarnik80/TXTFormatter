@@ -1,0 +1,324 @@
+1
+00:00:00,630 --> 00:00:04,590
+So now we want to build a function that takes in the value, right?
+
+2
+00:00:04,620 --> 00:00:09,780
+The value that the user would input for each of these things and for each of these things, we can call
+
+3
+00:00:09,780 --> 00:00:10,250
+that function.
+
+4
+00:00:10,320 --> 00:00:15,060
+So that function functionally common for energy levels, sugars, doesn't matter what, but all of these
+
+5
+00:00:15,060 --> 00:00:17,220
+will be calling that particular function that be calling for everything.
+
+6
+00:00:17,640 --> 00:00:24,450
+So the function is supposed to go through these steps, be it for energy or sodium or sugars or whatever,
+
+7
+00:00:25,350 --> 00:00:26,550
+supposed to go to all the steps.
+
+8
+00:00:26,550 --> 00:00:33,540
+And then it's going to compare that value and then basically give us the points based on this chart.
+
+9
+00:00:33,690 --> 00:00:34,800
+These points is what we want.
+
+10
+00:00:35,490 --> 00:00:37,350
+So the function is going to look very, very simple.
+
+11
+00:00:37,380 --> 00:00:47,380
+The function basically is going to call and get points from range of g would be small get points from
+
+12
+00:00:47,380 --> 00:00:50,130
+mid-range range takes it, like I said, the value.
+
+13
+00:00:50,490 --> 00:00:54,390
+So for each of the values like sodium, salt, sugars, we call this function, this common function
+
+14
+00:00:54,390 --> 00:00:56,220
+again and again, this function is quite central.
+
+15
+00:00:56,220 --> 00:00:57,270
+It's going to be called again and again.
+
+16
+00:00:57,270 --> 00:00:57,870
+So remember that.
+
+17
+00:00:57,870 --> 00:00:58,090
+Okay.
+
+18
+00:00:58,470 --> 00:01:03,360
+And this function, usually it'll it'll help if we keep this as the last function in your entire fight.
+
+19
+00:01:03,930 --> 00:01:08,580
+So you'll have here float 64, you'll have steps.
+
+20
+00:01:10,110 --> 00:01:12,990
+Steps will be a slice of 64.
+
+21
+00:01:13,260 --> 00:01:16,650
+Now way will it be a slice of float 61.
+
+22
+00:01:16,650 --> 00:01:23,640
+Because for each of these things, let's say if we want to find out the score for energy, the points
+
+23
+00:01:23,640 --> 00:01:28,800
+for energy, so you'll send out the value of energy that the food has for that he was a user has consumed
+
+24
+00:01:29,130 --> 00:01:34,860
+going to also send it these energy levels these this entire slices what are you going to send to that
+
+25
+00:01:34,860 --> 00:01:35,280
+function?
+
+26
+00:01:35,520 --> 00:01:35,820
+All right.
+
+27
+00:01:35,820 --> 00:01:36,750
+So that's what you're sending here.
+
+28
+00:01:36,750 --> 00:01:38,700
+So it's getting a slice, but you're also getting the value.
+
+29
+00:01:39,210 --> 00:01:45,750
+And now what it determines is a point, because this point, these points, that's the end result that
+
+30
+00:01:45,750 --> 00:01:46,530
+you want from the function.
+
+31
+00:01:46,860 --> 00:01:48,000
+So that's going to be an integer.
+
+32
+00:01:48,000 --> 00:01:54,930
+Obviously what we'll do is we do a variable called steps, then steps which will basically be the length
+
+33
+00:01:55,050 --> 00:01:58,650
+of the steps slice that you get to.
+
+34
+00:01:58,800 --> 00:02:04,230
+So the how are big that slices, you'll get the length of that right.
+
+35
+00:02:04,590 --> 00:02:08,639
+And what you want to do is you want to range over the steps that you've received at this function,
+
+36
+00:02:09,250 --> 00:02:16,320
+got range with that and you want to access the right beta and you want to access the value for each
+
+37
+00:02:16,320 --> 00:02:16,650
+step.
+
+38
+00:02:17,310 --> 00:02:18,300
+So that's going to tell.
+
+39
+00:02:20,310 --> 00:02:26,280
+Now, if we which is the value that we have received in this function of the particular item, the sodium
+
+40
+00:02:26,280 --> 00:02:28,260
+should better the user has consumed.
+
+41
+00:02:28,740 --> 00:02:35,480
+If that is an error in the sense if that value is greater, then let's say it's between 60 and 1005,
+
+42
+00:02:35,480 --> 00:02:35,760
+right.
+
+43
+00:02:36,330 --> 00:02:38,120
+Or between 1500.
+
+44
+00:02:38,120 --> 00:02:39,960
+It's it's greater than any of these values.
+
+45
+00:02:39,960 --> 00:02:42,960
+Let's say you get in this and you want to have that particular score.
+
+46
+00:02:43,620 --> 00:02:44,520
+So what do you want to do?
+
+47
+00:02:44,520 --> 00:02:49,440
+Done is you want to return the steps minus high.
+
+48
+00:02:50,710 --> 00:02:51,850
+That's how you get the formula.
+
+49
+00:02:52,150 --> 00:02:53,620
+So you get the number of steps here.
+
+50
+00:02:53,790 --> 00:03:00,190
+One, two, three, five, six, seven, eight, nine, ten and minus the later on, which you are this
+
+51
+00:03:00,190 --> 00:03:00,940
+at the third.
+
+52
+00:03:00,940 --> 00:03:01,120
+Right.
+
+53
+00:03:01,400 --> 00:03:03,290
+So that's how you to get the point, right?
+
+54
+00:03:03,330 --> 00:03:04,420
+That's how you can get the point.
+
+55
+00:03:04,780 --> 00:03:07,720
+And this that's getting the done from here at the point.
+
+56
+00:03:07,720 --> 00:03:11,170
+Just make sure there's capital in and steps and then everything will make sense.
+
+57
+00:03:12,310 --> 00:03:15,730
+But if you've gone through the entire range, if you've gone through the entire far loop you've got,
+
+58
+00:03:15,730 --> 00:03:16,540
+you get nothing.
+
+59
+00:03:17,950 --> 00:03:20,710
+As in the value is not greater than any of these values.
+
+60
+00:03:20,710 --> 00:03:24,550
+It's it's smaller than even 335.
+
+61
+00:03:24,550 --> 00:03:27,250
+Here are 4.5 here on one here and 90 here.
+
+62
+00:03:27,580 --> 00:03:29,880
+Then the point is going to be zero, right?
+
+63
+00:03:29,890 --> 00:03:30,520
+It was less than this.
+
+64
+00:03:30,520 --> 00:03:32,050
+It's obviously it's going to be zero.
+
+65
+00:03:32,140 --> 00:03:32,950
+So you can return.
+
+66
+00:03:34,200 --> 00:03:34,520
+Zero.
+
+67
+00:03:35,000 --> 00:03:35,250
+Okay.
+
+68
+00:03:35,310 --> 00:03:37,290
+So I hope the function makes sense now.
+
+69
+00:03:37,560 --> 00:03:39,060
+This is going to be quite a central function.
+
+70
+00:03:39,060 --> 00:03:43,380
+We're going to call it again and again is going to be common for finding out the value or the points
+
+71
+00:03:43,380 --> 00:03:49,340
+for energy sugars, sodium, fiber, saturated fat acids, energy for levels for beverage and sort of
+
+72
+00:03:49,350 --> 00:03:50,570
+beverage for all of those.
+
+73
+00:03:50,590 --> 00:03:51,720
+We'll be getting this function again.
+
+74
+00:03:51,720 --> 00:03:51,920
+Again.
+
+75
+00:03:51,930 --> 00:03:52,170
+Okay.
+
+76
+00:03:52,380 --> 00:03:58,170
+So this is just a small way of basically getting this point from these values.
+
+77
+00:03:58,170 --> 00:03:59,460
+So I hope that makes sense.
+
+78
+00:04:00,240 --> 00:04:06,690
+In the next video, we'll start working on the actual get score function, which we have, but we start
+
+79
+00:04:06,690 --> 00:04:09,780
+working on these functions now get points functions for all of these.
+
+80
+00:04:09,780 --> 00:04:12,060
+That's all going to get points methods for all of these different things.
+
+81
+00:04:12,060 --> 00:04:13,160
+So that's what we'll start working on.
+

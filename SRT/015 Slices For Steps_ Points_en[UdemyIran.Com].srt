@@ -1,0 +1,408 @@
+1
+00:00:00,780 --> 00:00:06,510
+So now that I've shown you that we have to create slices to store all those different values, and you
+
+2
+00:00:06,510 --> 00:00:11,690
+have to create that function that will go through the value that we send it from on main or go file.
+
+3
+00:00:11,700 --> 00:00:15,630
+And then compared with those values and give us this point system based on those charts.
+
+4
+00:00:16,350 --> 00:00:18,060
+Let's start with creating the slices first.
+
+5
+00:00:19,110 --> 00:00:26,730
+So I'll go here after I've created all my structs and my types, and before these methods begin and
+
+6
+00:00:26,730 --> 00:00:28,080
+we start creating some variables.
+
+7
+00:00:28,590 --> 00:00:32,940
+So the first variable that I'm going to create is energy levels.
+
+8
+00:00:34,590 --> 00:00:36,210
+Okay, I hope you can see it as a levels.
+
+9
+00:00:36,690 --> 00:00:40,740
+And this is a slice of plots.
+
+10
+00:00:43,290 --> 00:00:44,730
+It'll all be the single answer.
+
+11
+00:00:45,210 --> 00:00:50,520
+And similarly, let me create a couple more of these slices and then we'll start putting those values
+
+12
+00:00:50,520 --> 00:00:51,330
+that we saw in the top.
+
+13
+00:00:51,330 --> 00:00:54,300
+You saw some values for each of these, and the john will start filling those in.
+
+14
+00:00:54,870 --> 00:01:02,280
+So you have sugars that levels again is slice
+
+15
+00:01:05,540 --> 00:01:09,060
+and then you have saturated fatty acids.
+
+16
+00:01:12,310 --> 00:01:12,940
+Again.
+
+17
+00:01:14,480 --> 00:01:15,050
+A slice.
+
+18
+00:01:16,840 --> 00:01:19,000
+Then you have your sodium levels.
+
+19
+00:01:19,330 --> 00:01:20,170
+Sodium.
+
+20
+00:01:26,400 --> 00:01:27,000
+Levels.
+
+21
+00:01:31,380 --> 00:01:31,680
+Yeah.
+
+22
+00:01:31,680 --> 00:01:34,470
+Florent 64 and both of these.
+
+23
+00:01:37,200 --> 00:01:40,380
+They're also going to have some values here which we will soon fit in.
+
+24
+00:01:41,250 --> 00:01:44,910
+And then you have your fiber levels.
+
+25
+00:01:48,190 --> 00:01:49,450
+Float 64.
+
+26
+00:01:57,970 --> 00:02:06,160
+So this will have a small s and we also have great levels here because we are those all of those are
+
+27
+00:02:06,160 --> 00:02:07,420
+steps on two levels basically.
+
+28
+00:02:08,110 --> 00:02:09,669
+And then you have protein
+
+29
+00:02:12,640 --> 00:02:13,300
+levels.
+
+30
+00:02:16,450 --> 00:02:17,560
+Floyd 64.
+
+31
+00:02:20,030 --> 00:02:22,910
+Then you have energy levels beverage.
+
+32
+00:02:23,840 --> 00:02:27,710
+So these ones, you know that you have energy levels, sugar levels, all of these because we just saw
+
+33
+00:02:27,710 --> 00:02:34,610
+those in the, um, and the just that, you know, we'll have to keep these, these exact values are
+
+34
+00:02:34,610 --> 00:02:38,650
+what we're going to pick up and put in those slices.
+
+35
+00:02:38,660 --> 00:02:43,910
+So for the energy slice, we'll put these values sugar slice, we'll put these exact values for the
+
+36
+00:02:44,240 --> 00:02:45,650
+sodium unsaturated fatty acids.
+
+37
+00:02:45,650 --> 00:02:47,660
+We'll put these exact values in the slices.
+
+38
+00:02:48,950 --> 00:02:50,060
+So that's what we'll do now.
+
+39
+00:02:50,240 --> 00:02:53,690
+And there, apart from these, there are a couple more.
+
+40
+00:02:54,920 --> 00:02:56,060
+So there are two modes.
+
+41
+00:02:56,060 --> 00:03:00,350
+One is for energy levels.
+
+42
+00:03:02,340 --> 00:03:03,020
+Beverage.
+
+43
+00:03:07,020 --> 00:03:09,180
+Which is 64.
+
+44
+00:03:11,820 --> 00:03:16,710
+And then we have our sugar levels, beverage source sugar levels.
+
+45
+00:03:17,520 --> 00:03:22,830
+What happens, as we already know, that beverage and food items are going to be treated separately
+
+46
+00:03:22,830 --> 00:03:27,450
+because obviously we have a score type that's dependent on inputs, which is food and beverage.
+
+47
+00:03:27,720 --> 00:03:28,020
+Right.
+
+48
+00:03:28,470 --> 00:03:33,090
+So that's why for as and beverages also have energy levels and sugar levels.
+
+49
+00:03:33,420 --> 00:03:35,340
+So we want to treat them separately.
+
+50
+00:03:37,850 --> 00:03:38,400
+64.
+
+51
+00:03:40,510 --> 00:03:45,130
+So now it's the time to actually start filling in those values that we just saw in this chart, the
+
+52
+00:03:45,130 --> 00:03:46,000
+values that we saw.
+
+53
+00:03:46,360 --> 00:03:50,570
+It's time to start filling in these exact values, copying and pasting those values.
+
+54
+00:03:50,590 --> 00:03:51,880
+I have them somewhere.
+
+55
+00:03:52,360 --> 00:03:53,520
+So I'm just going to write them.
+
+56
+00:03:53,530 --> 00:03:54,670
+So feel free to write with me.
+
+57
+00:03:54,910 --> 00:03:56,500
+This code will be there with you anyways.
+
+58
+00:03:56,500 --> 00:03:56,980
+On GitHub.
+
+59
+00:03:56,980 --> 00:03:59,050
+If you don't want to write with me, you can just copy and paste them.
+
+60
+00:03:59,350 --> 00:04:04,570
+But for people who are not going to be using the GitHub code and are going to put along and I'll just
+
+61
+00:04:05,620 --> 00:04:08,080
+manually write these values, feel free to skip forward.
+
+62
+00:04:08,080 --> 00:04:11,410
+If you're getting bored in this section, you'll see four or five.
+
+63
+00:04:11,410 --> 00:04:11,920
+Then you have
+
+64
+00:04:11,920 --> 00:04:18,670
+2010167513401056
+
+65
+00:04:18,670 --> 00:04:20,620
+7285.
+
+66
+00:04:23,240 --> 00:04:28,640
+So as you can see, I've copied and seen these exact values and I've put them here in my code.
+
+67
+00:04:28,940 --> 00:04:29,240
+Okay.
+
+68
+00:04:31,260 --> 00:04:33,180
+So sugar levels now, sugar levels.
+
+69
+00:04:33,180 --> 00:04:44,400
+Let me look at the values and then start typing them here for five 1636, 31, 2017, 25 you have 18,
+
+70
+00:04:45,390 --> 00:04:46,830
+13.5.
+
+71
+00:04:46,860 --> 00:04:49,110
+You have 9.5.
+
+72
+00:04:50,400 --> 00:04:50,790
+Awesome.
+
+73
+00:04:51,360 --> 00:04:59,700
+Now for saturated fatty acids, acid levels, we will have as you can see, you have the quite straightforward.
+
+74
+00:04:59,700 --> 00:05:01,480
+This is 1097 to 1.
+
+75
+00:05:01,500 --> 00:05:02,970
+That's that's quite straightforward.
+
+76
+00:05:02,970 --> 00:05:08,550
+So we'll say ten, nine, eight, seven, six, five, four, three, two, one.
+
+77
+00:05:10,980 --> 00:05:11,610
+Sodium levels.
+
+78
+00:05:11,610 --> 00:05:13,140
+What are you going to do about the sodium levels?
+
+79
+00:05:13,200 --> 00:05:14,670
+We'll take the values from that again.
+
+80
+00:05:14,670 --> 00:05:16,650
+900 810.
+
+81
+00:05:17,280 --> 00:05:19,350
+726.
+
+82
+00:05:19,410 --> 00:05:23,280
+35.
+
+83
+00:05:23,280 --> 00:05:31,320
+44, 53, 62, 71, 80 and 90.
+
+84
+00:05:33,420 --> 00:05:36,900
+And then you have your fiber levels.
+
+85
+00:05:36,960 --> 00:05:49,440
+As you can see, we have to write about our fiber and also five levels at 4.7, 3.7, 2.8, 1.9.9.
+
+86
+00:05:50,280 --> 00:05:59,190
+Protein levels 86.4, 4.82.2 and 1.6.
+
+87
+00:06:00,690 --> 00:06:03,630
+And for energy levels in beverage you have.
+
+88
+00:06:06,610 --> 00:06:09,190
+Do 7240.
+
+89
+00:06:11,840 --> 00:06:20,510
+210 one 8151 2019 1630 and zero
+
+90
+00:06:23,300 --> 00:06:41,090
+and four sugar levels and your beverage you're going to have 13.5 12 10.59, 7.56, 4.531.50.
+
+91
+00:06:43,160 --> 00:06:46,130
+So we have created our levels.
+
+92
+00:06:46,160 --> 00:06:52,760
+Now we need to work on the function that is going to range through all this and then help us to get
+
+93
+00:06:52,760 --> 00:06:54,320
+to the points that you need.
+
+94
+00:06:54,890 --> 00:06:55,160
+Okay.
+
+95
+00:06:56,360 --> 00:06:58,490
+And we are going to call that function.
+
+96
+00:06:59,540 --> 00:07:02,190
+We are going to call it get points from range.
+
+97
+00:07:02,210 --> 00:07:04,100
+So we'll arrange over it and then we'll get the points.
+
+98
+00:07:04,100 --> 00:07:05,720
+And the function would be called get points.
+
+99
+00:07:06,530 --> 00:07:07,790
+The points in a parking lot out here.
+
+100
+00:07:07,940 --> 00:07:08,200
+Right.
+
+101
+00:07:08,240 --> 00:07:11,510
+Get points from by going over these ranges and comparing those values.
+
+102
+00:07:12,290 --> 00:07:14,000
+So that's what we'll be working on in the next video.
+

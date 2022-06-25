@@ -1,0 +1,304 @@
+1
+00:00:00,630 --> 00:00:05,670
+In the last video we worked on the get points from change function and I mentioned that this function
+
+2
+00:00:05,670 --> 00:00:10,680
+is quite important, quite central because from all of these functions the get points function for energy,
+
+3
+00:00:10,680 --> 00:00:13,400
+for sugar gram, for saturated fatty acids, 20 milligram.
+
+4
+00:00:14,460 --> 00:00:22,830
+We're just going to be calling this function to get points from the range because we have these steps,
+
+5
+00:00:22,830 --> 00:00:23,670
+right, these ranges.
+
+6
+00:00:24,480 --> 00:00:28,080
+And we're going to be basically passing these ranges to this function.
+
+7
+00:00:28,590 --> 00:00:32,820
+And the function names have been going to help us to calculate the points, which is the most important
+
+8
+00:00:32,820 --> 00:00:32,970
+thing.
+
+9
+00:00:32,970 --> 00:00:33,810
+We need those points.
+
+10
+00:00:33,810 --> 00:00:34,080
+Right?
+
+11
+00:00:35,010 --> 00:00:40,260
+So now let's start with this function, the get points function.
+
+12
+00:00:40,590 --> 00:00:50,910
+So the get points method for energy, the first thing that you want to check because you know, when
+
+13
+00:00:50,910 --> 00:00:54,450
+you're calculating for energy, it could be with the beverage or with the food item.
+
+14
+00:00:55,140 --> 00:00:56,760
+So going to check if it's a beverage or not.
+
+15
+00:00:57,090 --> 00:01:03,180
+And if it's a beverage, then what you'll be passing will be energy levels beverage.
+
+16
+00:01:03,180 --> 00:01:09,060
+This particular space is what you'll pass because this has different these have different points or
+
+17
+00:01:09,060 --> 00:01:11,190
+steps, different ranges and steps.
+
+18
+00:01:12,060 --> 00:01:13,890
+Whereas for food.
+
+19
+00:01:15,290 --> 00:01:18,350
+It'll be the regular energy levels slice.
+
+20
+00:01:19,460 --> 00:01:32,060
+So here we'll take if these berries then return get points from range float 64 E come on energy levels
+
+21
+00:01:32,390 --> 00:01:32,960
+average.
+
+22
+00:01:35,100 --> 00:01:36,150
+And you'll return.
+
+23
+00:01:37,410 --> 00:01:39,630
+Get by strong range.
+
+24
+00:01:41,960 --> 00:01:42,140
+Yeah.
+
+25
+00:01:42,140 --> 00:01:44,600
+So if it's Beveridge, then you'll call this function.
+
+26
+00:01:44,600 --> 00:01:47,060
+Otherwise you're calling this function.
+
+27
+00:01:47,240 --> 00:01:48,200
+Get points from range.
+
+28
+00:01:49,140 --> 00:01:52,670
+Um, the regular function with the regular energy levels.
+
+29
+00:01:52,730 --> 00:02:00,550
+So it'll say float 60 4p0 and it shows.
+
+30
+00:02:01,490 --> 00:02:06,080
+So I hope you understand that if it's a beverage, I'll just repeat again, if it's a beverage we're
+
+31
+00:02:06,620 --> 00:02:12,230
+calling get points from main function, which we just created in the last video but with the energy
+
+32
+00:02:12,230 --> 00:02:13,610
+level beverage slice.
+
+33
+00:02:15,200 --> 00:02:21,970
+Whereas if it's a food item, right, if it's not beverage, then you use get points from range, but
+
+34
+00:02:21,980 --> 00:02:26,510
+you'll pass that our regular energy levels, these ones and these energy levels, as you've seen, we've
+
+35
+00:02:26,510 --> 00:02:30,890
+got it from the documentation, either the official energy levels based on which the points need to
+
+36
+00:02:30,890 --> 00:02:34,550
+be carbonated and for the culprit in those points, which would be either positive or negative points.
+
+37
+00:02:34,940 --> 00:02:36,740
+This function is going to to those points for us.
+
+38
+00:02:38,030 --> 00:02:38,480
+Awesome.
+
+39
+00:02:38,510 --> 00:02:43,370
+Now, let's do the same for the sugar drum.
+
+40
+00:02:43,670 --> 00:02:44,540
+Get points for action.
+
+41
+00:02:46,080 --> 00:02:50,090
+Method, slightly higher quality function is actually a method whereby you see something like this,
+
+42
+00:02:50,100 --> 00:02:50,250
+right?
+
+43
+00:02:50,250 --> 00:02:51,750
+It's a matter, it's not a function.
+
+44
+00:02:51,810 --> 00:02:52,740
+This is a stuck method.
+
+45
+00:02:53,820 --> 00:02:57,750
+So now for Sugar Gram, it'll be again.
+
+46
+00:02:58,170 --> 00:02:58,830
+Same step.
+
+47
+00:02:59,340 --> 00:03:09,450
+You check our beverage and you'll return this SD Or this function is accepting SD This photo taken for
+
+48
+00:03:09,450 --> 00:03:20,970
+beverage and then you're turning get points from range load 6040 come on sugar levels beverage.
+
+49
+00:03:22,890 --> 00:03:23,120
+Right.
+
+50
+00:03:23,550 --> 00:03:26,360
+Just as you know, with marriage, you have to have marriage.
+
+51
+00:03:27,770 --> 00:03:28,830
+So you've passed that.
+
+52
+00:03:33,080 --> 00:03:33,470
+Here.
+
+53
+00:03:34,460 --> 00:03:35,900
+It's it's not easy.
+
+54
+00:03:37,670 --> 00:03:39,700
+So here he was energy cagey.
+
+55
+00:03:39,760 --> 00:03:42,110
+Right here we have SE, which is sugar ground.
+
+56
+00:03:42,110 --> 00:03:42,920
+So we have to pass.
+
+57
+00:03:43,790 --> 00:03:46,610
+That's why you can see us wiggling here because it doesn't know what he is.
+
+58
+00:03:46,820 --> 00:03:47,570
+And that's correct.
+
+59
+00:03:47,570 --> 00:03:49,430
+Because we should have written out here.
+
+60
+00:03:49,430 --> 00:03:53,360
+S So written we get two points.
+
+61
+00:03:53,360 --> 00:03:59,210
+I know I make these mistakes and I won't be adding them out because I want you to know that, you know,
+
+62
+00:03:59,270 --> 00:04:01,640
+I want you to observe good lines when they come.
+
+63
+00:04:01,640 --> 00:04:03,200
+And I want you to observe that you don't.
+
+64
+00:04:03,530 --> 00:04:04,850
+You might also make a mistake here.
+
+65
+00:04:04,850 --> 00:04:11,120
+So it should be instead that you have to pass here instead of glossing over these and not including
+
+66
+00:04:11,120 --> 00:04:15,740
+them in the video, I would be doing a disservice to you.
+
+67
+00:04:17,000 --> 00:04:22,490
+So here you're passing s again and you're saying sugar levels.
+
+68
+00:04:25,380 --> 00:04:25,740
+Okay.
+
+69
+00:04:26,550 --> 00:04:30,150
+So we're past basically this place.
+
+70
+00:04:30,780 --> 00:04:32,610
+If it was buried, we would have passed this place.
+
+71
+00:04:33,510 --> 00:04:34,080
+It's food.
+
+72
+00:04:34,140 --> 00:04:36,900
+We pass this place out here.
+
+73
+00:04:37,440 --> 00:04:43,190
+Both of them are different steps, and we get points separately based on food.
+
+74
+00:04:43,710 --> 00:04:48,540
+The points are different depending on these dips which we acquired from the documentation part, the
+
+75
+00:04:48,540 --> 00:04:48,990
+cat food.
+
+76
+00:04:50,070 --> 00:04:55,110
+Okay, so now similarly we have these other get points methods that we want to work on now.
+

@@ -1,0 +1,344 @@
+1
+00:00:00,510 --> 00:00:04,680
+So having done quite a few things, we are back to our good traditional score function.
+
+2
+00:00:06,000 --> 00:00:11,790
+Now as you see that we are checking for nautical to water.
+
+3
+00:00:13,410 --> 00:00:17,790
+That means that there will be many things that won't be equal to water.
+
+4
+00:00:17,790 --> 00:00:18,090
+Right?
+
+5
+00:00:19,440 --> 00:00:23,130
+For example, there could be cheese, food or beverage, all three things.
+
+6
+00:00:23,760 --> 00:00:24,900
+They won't be equal to water.
+
+7
+00:00:26,550 --> 00:00:29,430
+If it's not equal to water, then you do all these things.
+
+8
+00:00:31,110 --> 00:00:31,470
+Okay.
+
+9
+00:00:31,800 --> 00:00:32,880
+Otherwise, you don't do anything.
+
+10
+00:00:35,250 --> 00:00:37,040
+So if they're not equal to water, you'll do this.
+
+11
+00:00:37,050 --> 00:00:42,870
+These operations, like finding out the food points, five points, negative and positive are common.
+
+12
+00:00:44,340 --> 00:00:49,650
+But these are also getting applied to all key things like height, which are not water, which is cheese,
+
+13
+00:00:49,650 --> 00:00:50,460
+food and beverage.
+
+14
+00:00:51,240 --> 00:00:55,290
+But there are some things that you want to do specifically if the item is cheese.
+
+15
+00:00:55,620 --> 00:01:03,540
+So what you see is a double equal to cheese and in cheese when it comes to cheese.
+
+16
+00:01:03,540 --> 00:01:03,810
+Right.
+
+17
+00:01:06,400 --> 00:01:07,420
+What you'll see is character.
+
+18
+00:01:09,090 --> 00:01:10,470
+When it comes to you the value.
+
+19
+00:01:11,310 --> 00:01:15,130
+So as you know what the nutritional score has positive and negative score driven value.
+
+20
+00:01:15,150 --> 00:01:17,070
+Value being an important thing, right?
+
+21
+00:01:17,550 --> 00:01:23,520
+So the value that you want to send for cheese, the value the way it's calculated as negative minus
+
+22
+00:01:24,360 --> 00:01:24,690
+positive.
+
+23
+00:01:25,170 --> 00:01:29,340
+Now all these things that we're doing right, planning out the negative scores, finding out the positive
+
+24
+00:01:29,340 --> 00:01:31,980
+scores, the way the videos that we're giving like this.
+
+25
+00:01:32,820 --> 00:01:33,150
+Right.
+
+26
+00:01:33,150 --> 00:01:36,280
+And finding it saying that for cheese, it's always negative and positive.
+
+27
+00:01:36,340 --> 00:01:43,380
+All these things are the recommended things, the things that are recommended in that particular, you
+
+28
+00:01:43,380 --> 00:01:44,130
+know, science journal.
+
+29
+00:01:44,700 --> 00:01:46,100
+But these are all changeable.
+
+30
+00:01:46,110 --> 00:01:48,570
+I mean, we're not scientists, we are not nutritionists.
+
+31
+00:01:48,570 --> 00:01:48,780
+Right?
+
+32
+00:01:48,780 --> 00:01:49,800
+We are just learning goals.
+
+33
+00:01:49,820 --> 00:01:52,080
+And so please keep your eye on the ball.
+
+34
+00:01:52,470 --> 00:01:54,890
+Even if you're right, positive minus negative doesn't matter.
+
+35
+00:01:54,910 --> 00:01:56,850
+Nobody's going to really catch you for that.
+
+36
+00:01:57,150 --> 00:02:02,160
+So here, according to their suggestions, it's it should be negative minus positive for cheese specifically.
+
+37
+00:02:02,490 --> 00:02:02,820
+Okay.
+
+38
+00:02:03,900 --> 00:02:12,120
+And for anything other than cheese, you know, I think that's obviously not water, not cheese you
+
+39
+00:02:12,120 --> 00:02:12,720
+want to have.
+
+40
+00:02:13,970 --> 00:02:16,180
+You answered a couple of things you want to say negative.
+
+41
+00:02:18,130 --> 00:02:28,060
+If the negative is greater than equal to 11 and the fruit points less than five, you want to say value
+
+42
+00:02:28,060 --> 00:02:31,270
+is equal to negative minus positive.
+
+43
+00:02:32,470 --> 00:02:37,300
+So this is minus, minus positive, minus the fruit, two points.
+
+44
+00:02:39,760 --> 00:02:44,620
+So firstly, we're entering I'll just repeat again, if you're entering this look, this scored block
+
+45
+00:02:44,620 --> 00:02:49,840
+because for all things that are not water and we do some common processing tool here, then we want
+
+46
+00:02:49,840 --> 00:02:53,770
+to have we want to separate them out to see if it's G, then you want to see this.
+
+47
+00:02:53,770 --> 00:02:58,870
+If it's anything else except cheese and water, then you will do something like this, which is values
+
+48
+00:02:58,870 --> 00:03:00,930
+negative, minus positive, minus the food points.
+
+49
+00:03:01,450 --> 00:03:01,690
+Right?
+
+50
+00:03:01,690 --> 00:03:04,210
+What Jesus obviously sees won't have good food points, right?
+
+51
+00:03:04,540 --> 00:03:05,620
+This is why you're doing this.
+
+52
+00:03:07,360 --> 00:03:15,970
+And else you have value because it's negative minus positive.
+
+53
+00:03:19,450 --> 00:03:24,490
+So if negative is a little then equal to learning four points as it is in five, then you can have this.
+
+54
+00:03:24,670 --> 00:03:27,420
+Otherwise, it still values negative aspects too.
+
+55
+00:03:28,630 --> 00:03:31,260
+And this is how your final score has got to be it.
+
+56
+00:03:32,440 --> 00:03:33,700
+So this is how your values have to.
+
+57
+00:03:33,940 --> 00:03:35,080
+And this is what they are.
+
+58
+00:03:35,080 --> 00:03:36,790
+Good condition score function does.
+
+59
+00:03:38,260 --> 00:03:41,200
+So our good nutritional score function is kind of complete now.
+
+60
+00:03:43,180 --> 00:03:48,400
+Now, at the at the beginning of the video, we had written this constant.
+
+61
+00:03:48,400 --> 00:03:53,080
+We had defined this constant which had food, beverage, water and cheese.
+
+62
+00:03:53,080 --> 00:03:58,230
+And we didn't score diapers equal to either when we when we did something like this.
+
+63
+00:03:58,240 --> 00:04:01,120
+This is the idiomatic way of working.
+
+64
+00:04:01,120 --> 00:04:09,820
+Recording isometric is the idiomatic you can call it as the preferred way of writing Golang preferred
+
+65
+00:04:09,880 --> 00:04:11,560
+or recommended or prescribed way.
+
+66
+00:04:11,620 --> 00:04:13,270
+But the most efficient for you, right?
+
+67
+00:04:13,570 --> 00:04:15,160
+The most accepted contributor, right.
+
+68
+00:04:15,160 --> 00:04:20,740
+Golang You don't have to do it, but writing like this basically makes it idiomatic.
+
+69
+00:04:20,980 --> 00:04:26,740
+Now, a lot of the reason I'm explaining to you this is because a lot of you might be learning, might
+
+70
+00:04:26,740 --> 00:04:30,550
+have learned Golang properly, and a lot of you might be coming from another programming language thinking
+
+71
+00:04:30,550 --> 00:04:35,650
+that it's just learning Golang directly by building a project or a tool, a project like this.
+
+72
+00:04:36,790 --> 00:04:36,980
+Right.
+
+73
+00:04:37,000 --> 00:04:41,470
+So people who have learned Golang properly, like who have, you know, learned through tutorials and
+
+74
+00:04:41,470 --> 00:04:46,630
+seen a lot of videos online, they already this that whenever you have to create enemies, you write,
+
+75
+00:04:46,630 --> 00:04:51,190
+I like this because as I write, you know my degree of writing Golang typing this in Golang.
+
+76
+00:04:51,790 --> 00:04:54,640
+But people who might be coming from a different programming language, who have not gone through an
+
+77
+00:04:54,640 --> 00:04:59,160
+official introduction to Golang and not watched official basic Golang videos, you might be thinking
+
+78
+00:04:59,170 --> 00:05:02,430
+you might get thrown off by this, might see your desire to do my current center.
+
+79
+00:05:02,440 --> 00:05:05,830
+So all you have to remember is that you can let go along the way you want to.
+
+80
+00:05:06,130 --> 00:05:10,510
+But then there's the described idiomatic V of writing Golang, which is like the accepted kind of weird
+
+81
+00:05:10,810 --> 00:05:14,920
+writing Golang, and that when you have to create an enum like this, constant has multiple things.
+
+82
+00:05:15,100 --> 00:05:16,480
+This is not just a constant.
+
+83
+00:05:16,480 --> 00:05:20,410
+This is like an enum, because these are the four values that this concept can have.
+
+84
+00:05:21,070 --> 00:05:25,600
+So when you do something like this, that's very right, IOTA So I hope that's clear.
+
+85
+00:05:25,630 --> 00:05:28,480
+You can read more about it, obviously in the office without documentation.
+
+86
+00:05:30,010 --> 00:05:33,910
+And now comes the get your discourse function.
+

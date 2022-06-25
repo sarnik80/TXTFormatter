@@ -1,0 +1,72 @@
+1
+00:00:01,050 --> 00:00:05,760
+So this is our first project and this course, and we're building a nutritional calculator.
+
+2
+00:00:06,810 --> 00:00:11,400
+We'll be using basic golang concepts, but we'll be using them in depth, and you'll be using them in
+
+3
+00:00:11,400 --> 00:00:16,079
+the context of a project so that whatever you've learnt around these concepts, you'll be able to apply
+
+4
+00:00:16,079 --> 00:00:17,610
+them and learn them much better.
+
+5
+00:00:18,870 --> 00:00:27,240
+So the concepts that we'll be using are slices, f, ls statements, logical operators, floats and
+
+6
+00:00:27,510 --> 00:00:28,830
+a lot of calculations around them.
+
+7
+00:00:30,090 --> 00:00:36,150
+How to build structs and how to use struct methods, loops and ranges and functions.
+
+8
+00:00:37,680 --> 00:00:41,160
+As you can see, these are all basic concepts of Golang.
+
+9
+00:00:42,660 --> 00:00:47,970
+We have not gone into calling APIs or working with weird groups or go routines and all of that.
+
+10
+00:00:48,390 --> 00:00:50,780
+You just you're going to use the basic concepts in this nutritional value.
+
+11
+00:00:51,510 --> 00:00:53,400
+It's just a fancy calculator.
+
+12
+00:00:53,760 --> 00:00:59,250
+But since you'll use all of these concepts in the context of the project, you'll understand everything
+
+13
+00:00:59,250 --> 00:00:59,850
+much better.
+
+14
+00:01:00,420 --> 00:01:01,770
+So this is the right way to start.
+
+15
+00:01:01,980 --> 00:01:05,670
+Once you've done the basics of alignment to understand the basics, this is the right thing to do.
+
+16
+00:01:06,450 --> 00:01:13,650
+And using all of these concepts and building something that you can practice again and again and you
+
+17
+00:01:13,650 --> 00:01:14,580
+can learn depth through it.
+
+18
+00:01:15,900 --> 00:01:17,100
+So let's get started.
+

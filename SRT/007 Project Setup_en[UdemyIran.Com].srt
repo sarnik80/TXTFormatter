@@ -1,0 +1,524 @@
+1
+00:00:01,050 --> 00:00:03,030
+Now we'll start with the project up.
+
+2
+00:00:04,080 --> 00:00:05,710
+I'm in my Windows PowerShell.
+
+3
+00:00:05,730 --> 00:00:08,260
+You could be in your terminal for Mac or Ubuntu.
+
+4
+00:00:08,290 --> 00:00:09,050
+Doesn't matter.
+
+5
+00:00:09,090 --> 00:00:10,950
+The commands will be exactly the same.
+
+6
+00:00:12,240 --> 00:00:19,440
+So one more thing to know is that it doesn't matter which directly or folder you are in and how your
+
+7
+00:00:19,440 --> 00:00:20,580
+gulag has been set up.
+
+8
+00:00:20,590 --> 00:00:23,730
+All you need to know is you need to have Golang installed on your machine.
+
+9
+00:00:23,790 --> 00:00:26,640
+That is, it doesn't matter which folder path you're in.
+
+10
+00:00:27,330 --> 00:00:32,820
+The reason is that we'll be using modules or go mode, which is the new way of working with Golang and
+
+11
+00:00:33,330 --> 00:00:35,610
+with Gohmert or modules.
+
+12
+00:00:36,900 --> 00:00:40,800
+It takes care of all dependencies inside that project itself.
+
+13
+00:00:41,340 --> 00:00:42,930
+It's very much like NPM.
+
+14
+00:00:42,930 --> 00:00:45,480
+If you've worked with Node.js, it's very much like NPM.
+
+15
+00:00:45,630 --> 00:00:48,150
+So you don't have to scramble for the dependencies.
+
+16
+00:00:48,150 --> 00:00:52,950
+It keeps all of those dependencies in that particular folder in complete isolation.
+
+17
+00:00:53,040 --> 00:00:53,400
+All right.
+
+18
+00:00:53,880 --> 00:01:00,840
+So we'll say mid-year nutritional explorer project.
+
+19
+00:01:01,080 --> 00:01:04,500
+Let's turn the project and we'll seed into it.
+
+20
+00:01:07,630 --> 00:01:09,700
+And here comes the most important part.
+
+21
+00:01:10,000 --> 00:01:11,950
+So right now, this director is empty.
+
+22
+00:01:12,370 --> 00:01:15,400
+But like I said, we want to create this as a.
+
+23
+00:01:16,840 --> 00:01:18,370
+You know, as a government project.
+
+24
+00:01:18,910 --> 00:01:24,460
+So if you've used JavaScript or Node.js, you would know that you'll have something called as NPM in
+
+25
+00:01:24,460 --> 00:01:24,640
+it.
+
+26
+00:01:24,700 --> 00:01:28,210
+Or even if you use Git, you would have done get in, right?
+
+27
+00:01:29,200 --> 00:01:30,230
+It's very similar with Google.
+
+28
+00:01:30,250 --> 00:01:36,870
+He would say go on and it and now you want to give the name of a project so he could either say nutritional
+
+29
+00:01:37,540 --> 00:01:38,650
+score or something like that.
+
+30
+00:01:41,710 --> 00:01:42,610
+So you could say something like that.
+
+31
+00:01:43,270 --> 00:01:44,260
+But we'll keep it simple.
+
+32
+00:01:44,260 --> 00:01:47,980
+Will say Nutri Project.
+
+33
+00:01:49,690 --> 00:01:51,250
+But a good way to do things.
+
+34
+00:01:51,250 --> 00:01:56,170
+A good practice is always to initialize it on GitHub dot com.
+
+35
+00:01:58,500 --> 00:01:58,720
+Right.
+
+36
+00:01:59,330 --> 00:02:04,640
+So we're assuming that at the end, at some point of time, we'll be placing our project on GitHub dot
+
+37
+00:02:04,640 --> 00:02:11,660
+com and you'll have multiple packages in your project and all those packages will be easily available
+
+38
+00:02:11,990 --> 00:02:12,920
+from GitHub dot com.
+
+39
+00:02:13,640 --> 00:02:16,690
+And you can also put the name of your users and make it happen.
+
+40
+00:02:17,540 --> 00:02:21,980
+So you could just leave it like this new project or the good way of doing things with government is
+
+41
+00:02:22,160 --> 00:02:25,250
+this is the best practice GitHub dot com and the name of the user and you can project.
+
+42
+00:02:26,510 --> 00:02:31,970
+So now the thing with Google is that with Node.js you have NPM.
+
+43
+00:02:31,970 --> 00:02:33,830
+So you get all of your packages on NPM.
+
+44
+00:02:34,460 --> 00:02:40,700
+But with Golang, you don't have a repository or a library like NPM where you know, you could go or
+
+45
+00:02:40,700 --> 00:02:45,470
+directly, you know, and it was a direct you could go there and you can find all of these different
+
+46
+00:02:45,470 --> 00:02:47,600
+packages and easily install them through NPM.
+
+47
+00:02:48,290 --> 00:02:53,420
+With Go Golang you'll have in the Gulag world you have to do go get and that particular package name.
+
+48
+00:02:53,900 --> 00:02:59,720
+So if you ever want to build packages or deploy them to for the world to use, this is the right way
+
+49
+00:02:59,720 --> 00:03:00,220
+to do it.
+
+50
+00:03:00,230 --> 00:03:06,950
+You will see GitHub comments last year, user name and the name of the project or the package and all
+
+51
+00:03:06,950 --> 00:03:11,000
+of the packages that you'll notice, all of the packages that people use, third party packages are
+
+52
+00:03:11,060 --> 00:03:11,900
+set up like this.
+
+53
+00:03:11,900 --> 00:03:13,430
+They all have this kind of a format.
+
+54
+00:03:14,480 --> 00:03:16,250
+All of them will have this kind of white light.
+
+55
+00:03:17,360 --> 00:03:21,890
+So if we look at this and this is a new product, let's say it's creating new echo dot mark.
+
+56
+00:03:21,920 --> 00:03:26,120
+So you'll see here it has created a new file called Code Mark for you.
+
+57
+00:03:26,840 --> 00:03:28,820
+This is very similar to packages on file.
+
+58
+00:03:29,660 --> 00:03:34,750
+Again, this is a reference to if you've used JavaScript and or just the reason I give a lot of JavaScript
+
+59
+00:03:34,760 --> 00:03:39,350
+references is because majority of the people who are learning Golang are coming from the JavaScript
+
+60
+00:03:39,350 --> 00:03:39,970
+world, right?
+
+61
+00:03:40,010 --> 00:03:43,580
+They want to they want something better, they want a better programming language, they want to upskill,
+
+62
+00:03:43,580 --> 00:03:45,800
+they want to build better programs.
+
+63
+00:03:46,310 --> 00:03:52,970
+So JavaScript, Node.js, developers are the ones that mostly want to upskill by learning Golang.
+
+64
+00:03:52,970 --> 00:03:59,720
+So this is why, knowing my target audience, this is why I always kind of refer an audience here.
+
+65
+00:03:59,720 --> 00:04:03,590
+But in case your this is your first programming language, you're not going to run or just just ignore
+
+66
+00:04:03,590 --> 00:04:05,150
+that you don't have to really worry about it.
+
+67
+00:04:05,420 --> 00:04:06,650
+Just have to understand the concept.
+
+68
+00:04:06,650 --> 00:04:14,270
+The concept is that this file, the government file, is going to have a list of all the dependencies
+
+69
+00:04:14,270 --> 00:04:16,339
+that it will be using in this project.
+
+70
+00:04:16,339 --> 00:04:22,640
+So Golang is very modular, it's very light, it doesn't have a lot of things by default.
+
+71
+00:04:22,640 --> 00:04:28,700
+So you usually use a lot of third party packages and and those third party packages need to be tracked
+
+72
+00:04:28,700 --> 00:04:29,210
+somewhere.
+
+73
+00:04:29,390 --> 00:04:35,030
+You know, these are the third party packages so that when Golang project is running, it has a link
+
+74
+00:04:35,780 --> 00:04:36,830
+to those packages.
+
+75
+00:04:37,010 --> 00:04:38,090
+It can use those packages.
+
+76
+00:04:39,020 --> 00:04:41,810
+So this is why we we use the go dark mode file.
+
+77
+00:04:43,520 --> 00:04:49,760
+So whenever you get more packages into this project like go get using, go get or go more tidy, you'll
+
+78
+00:04:49,760 --> 00:04:53,360
+see the list of those packages and created in the go dark mark friend.
+
+79
+00:04:54,350 --> 00:04:56,360
+So I hope that's clear, not the packages.
+
+80
+00:04:56,570 --> 00:04:57,980
+Now there's one more complexity here.
+
+81
+00:04:57,980 --> 00:05:00,170
+There's one more level of information that I want to give you.
+
+82
+00:05:00,590 --> 00:05:02,090
+I hope that doesn't confuse you.
+
+83
+00:05:02,420 --> 00:05:07,370
+Is that all the packages that will be listed in the my file will have even further dependencies they
+
+84
+00:05:07,370 --> 00:05:08,180
+would probably need.
+
+85
+00:05:08,480 --> 00:05:13,550
+So let's say if you want the JWT authentication package, it might, you know, accessing it might be
+
+86
+00:05:13,550 --> 00:05:14,930
+accessing five more dependencies.
+
+87
+00:05:15,230 --> 00:05:20,670
+So all of those will be stored in a good or some file that will be created that will be more like your
+
+88
+00:05:20,690 --> 00:05:23,450
+package, dot lock package locked on this on file.
+
+89
+00:05:23,660 --> 00:05:26,960
+Right, which basically has the list of the dependencies.
+
+90
+00:05:26,960 --> 00:05:27,980
+Offer dependencies.
+
+91
+00:05:29,120 --> 00:05:30,890
+Again, this could be confusing to you.
+
+92
+00:05:31,190 --> 00:05:33,860
+Ignore it for now if you have not making any sense.
+
+93
+00:05:34,520 --> 00:05:37,310
+So right now you're just worrying about this.
+
+94
+00:05:37,310 --> 00:05:37,610
+Go dark.
+
+95
+00:05:37,610 --> 00:05:38,030
+My file.
+
+96
+00:05:38,120 --> 00:05:39,650
+And this is your project.
+
+97
+00:05:39,650 --> 00:05:40,910
+Your project doesn't have anything else.
+
+98
+00:05:41,720 --> 00:05:44,240
+Now I'll be using vs code.
+
+99
+00:05:44,270 --> 00:05:47,470
+You could be using any other greater, but I would suggest that yes.
+
+100
+00:05:47,480 --> 00:05:50,180
+Code is a really good decorator for Golang.
+
+101
+00:05:50,180 --> 00:05:51,980
+Don't use anything else, right?
+
+102
+00:05:51,980 --> 00:05:52,880
+Just use me as code.
+
+103
+00:05:52,880 --> 00:05:54,380
+It's free going why wouldn't you use it?
+
+104
+00:05:54,830 --> 00:06:00,220
+So install Google voice code and it's very simple to start this particular project and export.
+
+105
+00:06:00,530 --> 00:06:05,690
+All you have to say is good and space starts and you will have the project to open up here.
+
+106
+00:06:08,320 --> 00:06:13,630
+Right now, what I've done with as good is when you go to extensions, right?
+
+107
+00:06:13,660 --> 00:06:18,940
+There's a place called extensions and you just go like the first four or five packages that come up,
+
+108
+00:06:18,940 --> 00:06:24,340
+the first four or five extensions, just download them, just put them on your if you scored four goals
+
+109
+00:06:25,210 --> 00:06:27,190
+and I've done that already.
+
+110
+00:06:27,190 --> 00:06:32,890
+So what that does is as a as a beginner, as a junior developer, it's very handy because it'll help
+
+111
+00:06:32,890 --> 00:06:38,470
+you catch syntax errors, it'll help you catch spelling mistakes and help you catch things like, you
+
+112
+00:06:38,470 --> 00:06:42,790
+know, if you've defined a variable but you've not used it, lose something that'll help you catch so
+
+113
+00:06:42,790 --> 00:06:44,980
+that you don't have to wait till you run the program.
+
+114
+00:06:44,980 --> 00:06:46,960
+And actually, everything just falls apart.
+
+115
+00:06:47,710 --> 00:06:51,340
+And this is also the reason why I won't be running the program quite a bit, because I'm using those
+
+116
+00:06:51,340 --> 00:06:52,180
+extensions already.
+
+117
+00:06:52,180 --> 00:06:56,320
+They'll keep helping us by telling us that, you know, this is a this could be a problem media.
+
+118
+00:06:56,320 --> 00:06:56,980
+This could be an issue.
+
+119
+00:06:57,370 --> 00:06:58,780
+It'll give us a good line there.
+
+120
+00:06:59,890 --> 00:07:00,190
+Right.
+
+121
+00:07:00,670 --> 00:07:04,930
+So in case you want to see which ones I have installed, you can I can show them to you.
+
+122
+00:07:06,970 --> 00:07:09,910
+But I wasn't very selective.
+
+123
+00:07:09,910 --> 00:07:11,770
+I just installed the first four or five.
+
+124
+00:07:11,770 --> 00:07:14,770
+So you can see this this one, the Golang one, the Google one.
+
+125
+00:07:14,900 --> 00:07:19,060
+These two are installed in my machine right now, but there are many I have not installed.
+
+126
+00:07:20,560 --> 00:07:25,750
+But these two, if you find these two, whenever you write Golang, these two will come up in the first
+
+127
+00:07:25,750 --> 00:07:26,260
+place anyways.
+
+128
+00:07:27,040 --> 00:07:27,460
+So.
+
+129
+00:07:28,750 --> 00:07:29,920
+Just install them.
+
+130
+00:07:30,370 --> 00:07:30,730
+All right.
+
+131
+00:07:33,390 --> 00:07:37,290
+Now what we'll do is we'll start looking backward.
+

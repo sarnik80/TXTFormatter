@@ -1,0 +1,232 @@
+1
+00:00:00,810 --> 00:00:01,230
+Guys.
+
+2
+00:00:01,230 --> 00:00:06,210
+So the nutritional calculator that we are making as quite a scientific one, and if you open up any
+
+3
+00:00:06,210 --> 00:00:13,800
+scientific journal like this, you end up seeing a chart, a chart like this where you get some points
+
+4
+00:00:13,800 --> 00:00:19,830
+like zero, one, two, three, four and so on, some points based on how much density of these particular
+
+5
+00:00:19,830 --> 00:00:22,220
+items is there inside the food.
+
+6
+00:00:22,240 --> 00:00:27,370
+So for example, what's the energy density in a sense, kilojoules per 100 gram, right?
+
+7
+00:00:27,390 --> 00:00:29,550
+How much energy does that food provide?
+
+8
+00:00:29,850 --> 00:00:30,930
+So that gets some points.
+
+9
+00:00:31,530 --> 00:00:38,370
+Sugars get some point based on is the sugars, you know, less than 4.5, less than nine doesn't 13.5,
+
+10
+00:00:38,700 --> 00:00:39,720
+less than 42.1.
+
+11
+00:00:39,720 --> 00:00:43,290
+That unsaturated fatty acids get some points because of that.
+
+12
+00:00:43,950 --> 00:00:45,990
+You know, we get some points because of sodium.
+
+13
+00:00:45,990 --> 00:00:51,090
+How how how much the sodium in the food per hundred grams if you get some points.
+
+14
+00:00:51,090 --> 00:00:55,680
+So these are these points are all calculated and then these becomes the negative one.
+
+15
+00:00:55,680 --> 00:00:59,610
+So as you can see that these things, they have a negative negative impact on the nutritional score
+
+16
+00:00:59,610 --> 00:01:00,750
+in the sense of energy density.
+
+17
+00:01:01,200 --> 00:01:05,730
+Sugars, fatty acids and sodium are negative things that are considered negative if you eat these things
+
+18
+00:01:05,730 --> 00:01:06,240
+in your food.
+
+19
+00:01:06,240 --> 00:01:11,040
+So if you have a very high energy density in the sense that if you drink Coca-Cola, right, Coca-Cola
+
+20
+00:01:11,040 --> 00:01:14,730
+has a very high energy density because just calories, it has a lot of sugar.
+
+21
+00:01:14,740 --> 00:01:16,470
+So you will get a lot of negative points.
+
+22
+00:01:16,470 --> 00:01:22,020
+If you eat any any fried food, you'll get saturated fatty acids.
+
+23
+00:01:22,020 --> 00:01:27,690
+If you eat any salty foods like French fries, it will have both fatty acids and a lot of sodium.
+
+24
+00:01:28,020 --> 00:01:29,100
+So those are all negative things.
+
+25
+00:01:29,100 --> 00:01:30,000
+You shouldn't be eating that.
+
+26
+00:01:30,360 --> 00:01:31,830
+So that's how you'll get points.
+
+27
+00:01:31,830 --> 00:01:36,420
+But the points that you'll get from here will be negative points and you'll get some positive points
+
+28
+00:01:36,750 --> 00:01:41,370
+based on the amount of fiber that you have are fruits, vegetables, etc., and the protein that eat.
+
+29
+00:01:41,370 --> 00:01:41,670
+Right.
+
+30
+00:01:41,970 --> 00:01:45,750
+So if it's greater than that or less than that, depending on that, will get these points.
+
+31
+00:01:45,750 --> 00:01:47,610
+But these will be the positive points.
+
+32
+00:01:48,330 --> 00:01:52,800
+Now that obviously translates into our program.
+
+33
+00:01:53,610 --> 00:01:59,640
+That means that we will have to have a function that takes in these values or takes in the value of
+
+34
+00:02:00,000 --> 00:02:01,950
+the item that we have consumed.
+
+35
+00:02:02,250 --> 00:02:05,550
+And then compared with these steps, these are different steps.
+
+36
+00:02:05,550 --> 00:02:05,720
+Right.
+
+37
+00:02:05,730 --> 00:02:10,080
+That has the scientific community has created for us based on that will create these points.
+
+38
+00:02:10,080 --> 00:02:10,740
+We get these points.
+
+39
+00:02:11,250 --> 00:02:17,880
+So we need to store these different values in terms of areas of some of it, all of these values for
+
+40
+00:02:17,880 --> 00:02:22,160
+energy density, we need a place to store these values for sugars.
+
+41
+00:02:22,170 --> 00:02:25,950
+We need to store all these values 4.59 or these four such and fatty acids.
+
+42
+00:02:25,950 --> 00:02:27,660
+We need to store these value for sodium as well.
+
+43
+00:02:27,870 --> 00:02:34,350
+And then whenever somebody eats something, we need a function that converts, you know, compares those
+
+44
+00:02:34,350 --> 00:02:38,970
+values with these values and gives us these points for all of these different things like energy, sugar,
+
+45
+00:02:39,150 --> 00:02:39,990
+sodium, etc..
+
+46
+00:02:40,230 --> 00:02:44,820
+And similarly for the positive things as well, whenever somebody had something, you want the function
+
+47
+00:02:44,820 --> 00:02:46,370
+to compare with these values, right?
+
+48
+00:02:46,380 --> 00:02:50,730
+So firstly, you need to obviously store these values somewhere in places like for fiber, this depth
+
+49
+00:02:50,730 --> 00:02:54,870
+is good in steps, you have to store some it, then you need the function that takes in those values
+
+50
+00:02:55,170 --> 00:02:58,500
+that the user has consumed and then compare with these steps and then give us these points.
+
+51
+00:02:58,500 --> 00:02:59,640
+These will be the positive points.
+
+52
+00:02:59,880 --> 00:03:05,490
+And then obviously at the end you want to like calculate the positive and negative and then arrive at
+
+53
+00:03:05,490 --> 00:03:07,440
+the final nutritional score at the end.
+
+54
+00:03:09,180 --> 00:03:14,580
+So what I'm going to do now in the next video will start actually converting all of that into our code
+
+55
+00:03:14,580 --> 00:03:17,340
+so that it helps us to actually calculate the nutritional score.
+
+56
+00:03:17,340 --> 00:03:19,950
+But I hope you've understood where this is coming from.
+
+57
+00:03:20,370 --> 00:03:24,120
+Check out, you know, leading nutrition journals.
+
+58
+00:03:24,120 --> 00:03:26,280
+This is how I, I calculated.
+

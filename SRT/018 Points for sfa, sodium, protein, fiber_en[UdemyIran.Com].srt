@@ -1,0 +1,132 @@
+1
+00:00:00,540 --> 00:00:05,190
+So we've been working on our get points functions for energy, CG and sugar ground.
+
+2
+00:00:05,640 --> 00:00:07,860
+Now let's do the same quickly for SFA.
+
+3
+00:00:09,750 --> 00:00:10,530
+And sodium.
+
+4
+00:00:11,250 --> 00:00:15,660
+So for SFE, which are saturated fatty acids, you're going to hit on
+
+5
+00:00:18,550 --> 00:00:24,960
+the good points from range again for the inside this you're going to be passing this SFE
+
+6
+00:00:29,700 --> 00:00:35,220
+and he used busing to try to assert limits just to make sure you can go here and check that you have
+
+7
+00:00:35,220 --> 00:00:37,470
+a slice already called the saturated fatty acids.
+
+8
+00:00:37,530 --> 00:00:43,140
+And that's what basically it's going to be sent now for sodium mg.
+
+9
+00:00:44,920 --> 00:00:53,710
+You're going to have done again to see him get points from range for 64, you'll pass s and pass sodium
+
+10
+00:00:53,710 --> 00:00:54,160
+levels.
+
+11
+00:00:55,030 --> 00:00:59,770
+Okay, now let's do the same for fiber and protein as well.
+
+12
+00:00:59,890 --> 00:01:02,380
+So we'll come to fiber and protein and out here.
+
+13
+00:01:04,379 --> 00:01:05,430
+And fiber and pudding.
+
+14
+00:01:05,730 --> 00:01:09,780
+So we're not doing it for food because for foods it's going to be slightly different from fruits.
+
+15
+00:01:10,800 --> 00:01:13,580
+The get points from range function isn't going to be very effective for us.
+
+16
+00:01:13,590 --> 00:01:16,560
+There's a separate way of calculating points for our fruits.
+
+17
+00:01:17,010 --> 00:01:20,690
+So we'll do it for fiber and get points for protein first.
+
+18
+00:01:20,700 --> 00:01:21,450
+So we'll see.
+
+19
+00:01:21,660 --> 00:01:29,700
+But don't you get plans from range 64 f some fiber levels.
+
+20
+00:01:31,650 --> 00:01:33,300
+And here you'll see that done.
+
+21
+00:01:35,750 --> 00:01:37,070
+Good points from range.
+
+22
+00:01:38,570 --> 00:01:42,230
+164 B, come on.
+
+23
+00:01:42,500 --> 00:01:46,130
+Protein levels, right.
+
+24
+00:01:46,490 --> 00:01:48,950
+So far, most of these get points functions.
+
+25
+00:01:49,490 --> 00:01:49,880
+Are done.
+
+26
+00:01:49,880 --> 00:01:50,900
+You're done with energy.
+
+27
+00:01:50,900 --> 00:01:52,130
+K.J. We don't have to go to ground.
+
+28
+00:01:52,130 --> 00:01:53,540
+We're done with SFE.
+
+29
+00:01:54,200 --> 00:01:58,370
+So the MG program, including the one that's left, is food suppressant.
+
+30
+00:01:59,810 --> 00:02:02,450
+And for that we'd have to do something separate.
+
+31
+00:02:02,720 --> 00:02:04,820
+Our documentation mentioned something separate for foods.
+
+32
+00:02:05,240 --> 00:02:09,680
+And this is why this function, which is the get points from range function, is not going to be enough
+
+33
+00:02:09,889 --> 00:02:10,310
+for us.
+

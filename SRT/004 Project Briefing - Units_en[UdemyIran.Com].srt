@@ -1,0 +1,52 @@
+1
+00:00:00,600 --> 00:00:04,680
+So now that we already know what we're going to be tracking, like energy sugars, sodium, fiber,
+
+2
+00:00:04,680 --> 00:00:08,160
+protein, etc., we need to have the units defined.
+
+3
+00:00:08,880 --> 00:00:15,090
+So for energy, we'll be using kilojoules per 100 grams for sugar, we'll be using grams per 100 grams
+
+4
+00:00:15,360 --> 00:00:19,470
+of saturated fat and fatty acids will be using grams per 100 grams.
+
+5
+00:00:20,400 --> 00:00:27,300
+Sodium will be using mg, 400 grams fibres will be using grams, 400 grams and proteins will be using
+
+6
+00:00:27,300 --> 00:00:27,540
+grass.
+
+7
+00:00:27,540 --> 00:00:33,810
+But under drums, these and bowl will be the units that we are tracking.
+
+8
+00:00:34,710 --> 00:00:40,020
+Make sure you take a screenshot of this right now so that all you can come back to this video so that
+
+9
+00:00:40,020 --> 00:00:42,030
+you know, you know where we're coming from.
+
+10
+00:00:42,870 --> 00:00:46,890
+So in a nutritional calculator, well, the things that we have to track because on the food item that
+
+11
+00:00:46,890 --> 00:00:51,990
+the user has said we'd be tracking based on these units.
+
+12
+00:00:52,080 --> 00:00:55,170
+So the units are important because that's what the calculator is going to calculate.
+
+13
+00:00:56,790 --> 00:00:58,280
+So I hope that's here.
+
