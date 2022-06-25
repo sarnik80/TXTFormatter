@@ -10,18 +10,28 @@ def getAllDir(path):
     
     return  os.listdir(path)
     
+def createDSTDirForTxtFiles(parent_dir , directory):
+
+    path = os.path.join(parent_dir, directory)
+
+    os.mkdir(path)
+
+    print("Directory '% s' created" % directory)
+  
 
 
 def main():
 
 
     dir_list = getAllDir(PATH)
+
+    createDSTDirForTxtFiles("./", "txtFiles")
     count = 1
     for  fl  in dir_list :
 
         pth =  PATH + "/" +fl 
         file = open( pth, "r")
-        f = open(str(count)+".txt", "a")
+        f = open("./txtFiles"+"/"+str(count)+".txt", "a")
         lines = file.readlines()
         file.close()
 
