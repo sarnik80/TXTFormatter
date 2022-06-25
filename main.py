@@ -1,4 +1,3 @@
-# If you want to use regex to filter out the digit lines and empty lines, you can use this:
 
 import re
 import os
